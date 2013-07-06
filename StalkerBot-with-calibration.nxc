@@ -15,7 +15,13 @@ task main() {
 
 // Move forward until 30
 while(SensorUS(S2)>30){
-    OnFwd(OUT_AC, 75);
+    OnFwd(OUT_AC,75);
+    Wait(15);
+}
+
+// Move forward slow until touch
+while(SENSOR_1 == 0 && SENSOR_4 == 0){
+    OnFwd(OUT_AC,25);
     Wait(15);
 }
 

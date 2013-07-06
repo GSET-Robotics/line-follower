@@ -1,0 +1,377 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__CLSRMutex1	9	0	0	4	2
+1	__signed_stack_002main	6	1	4	4	2
+2	__CLSCSMutex1	9	0	8	4	2
+3	__CLSWMutex1	9	0	12	4	2
+4	__RLSBmutex1	9	0	16	4	6
+5	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	20	4	3
+6	__D0main	6	1	24	4	36
+7	__signed_stack_001main	6	1	28	4	12
+8	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	32	4	2
+9	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	36	4	4
+10	goal	4	1	40	2	2
+11	dist	4	1	42	2	3
+12	__constVal63	2	0	44	1	6
+13	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	45	1	2
+14	__constVal96	2	0	46	1	6
+15	__constValNeg50	2	0	47	1	1
+16	__zfmain	1	1	48	1	18
+17	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	49	1	2
+18	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	50	1	8
+19	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	51	1	2
+20	____initialize_global_data_return	1	1	52	1	3
+21	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	53	1	2
+22	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	54	1	2
+23	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	55	1	2
+24	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	56	1	4
+25	__constVal3	2	0	57	1	7
+26	__constVal0	2	1	58	1	21
+27	__constVal15	2	0	59	1	7
+28	__constVal4	2	0	60	1	1
+29	__ResetSensorTmp	1	1	61	1	2
+30	____ResetSensorSubroutine_return	1	1	62	1	5
+31	__ResetSensorPort	1	1	63	1	5
+32	__RLSBIterations1	1	1	64	1	4
+33	__constVal32	2	0	65	1	20
+34	__PFTmp	1	1	66	1	1
+35	__RLSBytesCount1	1	1	67	1	9
+36	____ReadLSBytes1_return	1	1	68	1	5
+37	__constVal1	2	0	69	1	6
+38	__RLSBResult1	2	1	70	1	7
+39	__CLSRArgs1	8	0	4	12	5
+40	__CLSRArgs1.Result	2	1	72	1	5
+41	__CLSRArgs1.Port	1	1	73	1	5
+42	__CLSRArgs1.Buffer	7	0	74	4	5
+43	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+44	__CLSRArgs1.BufferLen	1	1	76	1	5
+45	__CLSWArgs1	8	0	4	12	5
+46	__CLSWArgs1.Result	2	1	80	1	5
+47	__CLSWArgs1.Port	1	1	81	1	5
+48	__CLSWArgs1.Buffer	7	0	82	4	5
+49	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+50	__CLSWArgs1.ReturnLen	1	1	84	1	5
+51	__CLSCSArgs1	8	0	3	4	4
+52	__CLSCSArgs1.Result	2	1	88	1	4
+53	__CLSCSArgs1.Port	1	1	89	1	4
+54	__CLSCSArgs1.BytesReady	1	1	90	1	4
+55	__RLSReadBuf1	7	0	92	4	12
+56	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+57	__OUT_AC	7	0	94	4	6
+58	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+59	__RLSBbufLSWrite1	7	0	96	4	3
+60	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+61	__RLSLastGoodRead1	7	0	98	4	2
+62	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	11	0	#line 11 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	12	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	11	2	#line 11 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	11	2	#line 11 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	11	2	#line 11 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	3768	2	#line 3768 "NXCDefs.h"
+0	3769	2		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3768	4	#line 3768 "NXCDefs.h"
+0	3768	4	#line 3768 "NXCDefs.h"
+0	3769	4		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	6	#line 3758 "NXCDefs.h"
+0	3759	6		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	8	#line 3758 "NXCDefs.h"
+0	3758	8	#line 3758 "NXCDefs.h"
+0	3759	8		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	10	#line 3758 "NXCDefs.h"
+0	3759	10		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	13	#line 3758 "NXCDefs.h"
+0	3759	13		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	16	#line 3758 "NXCDefs.h"
+0	3759	16		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	19	#line 3758 "NXCDefs.h"
+0	3759	19		jmp __001__001__NXC_Label_37
+0	3758	21	#line 3758 "NXCDefs.h"
+0	3759	21		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	24	#line 3758 "NXCDefs.h"
+0	3759	24		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	26	#line 3663 "NXCDefs.h"
+0	3664	26		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	30	#line 3663 "NXCDefs.h"
+0	3759	30	#line 3759 "NXCDefs.h"
+0	3759	30	#line 3759 "NXCDefs.h"
+0	3760	30		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	32	#line 3759 "NXCDefs.h"
+0	3759	32	#line 3759 "NXCDefs.h"
+0	3760	32		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	35	#line 3759 "NXCDefs.h"
+0	3676	35	#line 3676 "NXCDefs.h"
+0	3677	35		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	39	#line 3676 "NXCDefs.h"
+0	3760	39	#line 3760 "NXCDefs.h"
+0	3760	39	#line 3760 "NXCDefs.h"
+0	3760	39	#line 3760 "NXCDefs.h"
+0	3694	39	#line 3694 "NXCDefs.h"
+0	3695	39	#pragma macro 4
+0	3695	39		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3695	41		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3715	43	#line 3715 "NXCDefs.h"
+0	3694	43	#line 3694 "NXCDefs.h"
+0	3761	43	#line 3761 "NXCDefs.h"
+0	3768	43	#line 3768 "NXCDefs.h"
+0	12	43	#line 12 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	12	43	#line 12 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	13	43		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	12	46	#line 12 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	3718	46	#line 3718 "NXCDefs.h"
+0	3719	46	#pragma macro 6
+0	3719	46		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	50		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	54		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	56		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3731	58	#line 3731 "NXCDefs.h"
+0	3718	58	#line 3718 "NXCDefs.h"
+0	13	58	#line 13 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	13	58	#line 13 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	14	58		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 3
+0	13	61	#line 13 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	3718	61	#line 3718 "NXCDefs.h"
+0	3719	61	#pragma macro 6
+0	3719	61		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	65		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	69		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	71		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3741	73	#line 3741 "NXCDefs.h"
+0	3718	73	#line 3718 "NXCDefs.h"
+0	16	73	#line 16 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	16	73	#line 16 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	17	73	#pragma macro 26
+0	17	73		acquire __RLSBmutex1
+0	17	74		mov __RLSReadBuf1, __RLSBbufLSWrite1
+0	17	76		set __RLSBytesCount1, 1
+0	17	79		wait2 NA, __constVal15
+0	17	82		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+0	17	84		index __D0main, __RLSReadBuf1, 65535
+0	17	88		release __RLSBmutex1
+0	3746	89	#line 3746 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	16	89	#line 16 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	17	89		mov __signed_stack_001main, __D0main
+0	16	91	#line 16 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	17	91		set __D0main, 30
+0	16	94	#line 16 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	17	94		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	16	98	#line 16 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	17	98		mov __D0main, __zfmain
+0	17	100	#line 17 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	18	100		brtst 4, __NXC_Label_496, __zfmain
+0	17	103	#line 17 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	18	103		set __D0main, 75
+0	18	106	#line 18 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	19	106	#pragma macro 7
+0	19	106		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3764	129	#line 3764 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	18	129	#line 18 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	18	129	#line 18 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	19	129		set __Wait_7qG2_ms_7qG2_000_inline_main, 15
+0	18	132	#line 18 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	7921	132	#line 7921 "NXCDefs.h"
+0	7922	132		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	135	#line 7921 "NXCDefs.h"
+0	19	135	#line 19 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	22	135	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	135		jmp __NXC_Label_495
+0	22	137	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	22	137	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	137		getin __signed_stack_001main, __constVal0, 4
+0	22	141	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	22	141	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	141		set __D0main, 0
+0	22	144	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	144		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	22	148	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	148		mov __D0main, __zfmain
+0	22	150	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	150		brtst 4, __NXC_Label_506, __zfmain
+0	22	153	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	153		mov __signed_stack_001main, __D0main
+0	22	155	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	155		getin __signed_stack_002main, __constVal3, 4
+0	22	159	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	22	159	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	159		set __D0main, 0
+0	22	162	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	162		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	22	166	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	22	166	#line 22 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	23	166		and __D0main, __signed_stack_001main, __zfmain
+0	23	170	#line 23 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	24	170		tst 5, __zfmain, __D0main
+0	23	173	#line 23 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	24	173		brtst 4, __NXC_Label_504, __zfmain
+0	23	176	#line 23 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	24	176		set __D0main, 25
+0	24	179	#line 24 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	25	179	#pragma macro 7
+0	25	179		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3822	202	#line 3822 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	24	202	#line 24 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	24	202	#line 24 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	25	202		set __Wait_7qG2_ms_7qG2_000_inline_main, 15
+0	24	205	#line 24 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	7921	205	#line 7921 "NXCDefs.h"
+0	7922	205		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	208	#line 7921 "NXCDefs.h"
+0	25	208	#line 25 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	28	208	#line 28 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	29	208		jmp __NXC_Label_503
+0	28	210	#line 28 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	29	210	#line 29 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	30	210	#pragma macro 7
+0	30	210		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3839	233	#line 3839 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	29	233	#line 29 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	29	233	#line 29 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	30	233	#pragma macro 26
+0	30	233		acquire __RLSBmutex1
+0	30	234		mov __RLSReadBuf1, __RLSBbufLSWrite1
+0	30	236		set __RLSBytesCount1, 1
+0	30	239		wait2 NA, __constVal15
+0	30	242		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+0	30	244		index __D0main, __RLSReadBuf1, 65535
+0	30	248		release __RLSBmutex1
+0	3842	249	#line 3842 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	29	249	#line 29 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	30	249		mov goal, __D0main
+0	29	251	#line 29 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	29	251	#line 29 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	33	251	#line 33 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	34	251		set __D0main, 1
+0	34	254	#line 34 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	35	254		tst 5, __zfmain, __D0main
+0	34	257	#line 34 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	35	257		brtst 4, __NXC_Label_514, __zfmain
+0	34	260	#line 34 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	35	260	#pragma macro 26
+0	35	260		acquire __RLSBmutex1
+0	35	261		mov __RLSReadBuf1, __RLSBbufLSWrite1
+0	35	263		set __RLSBytesCount1, 1
+0	35	266		wait2 NA, __constVal15
+0	35	269		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+0	35	271		index __D0main, __RLSReadBuf1, 65535
+0	35	275		release __RLSBmutex1
+0	3859	276	#line 3859 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	34	276	#line 34 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	35	276		mov dist, __D0main
+0	34	278	#line 34 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	34	278	#line 34 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	35	278	#line 35 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	36	278		mov __signed_stack_001main, __D0main
+0	35	280	#line 35 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	35	280	#line 35 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	36	280		set __D0main, 40
+0	35	283	#line 35 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	36	283		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	35	287	#line 35 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	36	287		mov __D0main, __zfmain
+0	36	289	#line 36 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	37	289		brtst 4, __NXC_Label_521, __zfmain
+0	36	292	#line 36 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	37	292		set __D0main, 75
+0	37	295	#line 37 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	38	295	#pragma macro 7
+0	38	295		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3885	318	#line 3885 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	37	318	#line 37 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	38	318	#line 38 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	39	318		jmp __NXC_Label_524
+0	38	320	#line 38 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	39	320		mov __signed_stack_001main, dist
+0	38	322	#line 38 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	38	322	#line 38 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	39	322		set __D0main, 20
+0	38	325	#line 38 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	39	325		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	38	329	#line 38 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	39	329		mov __D0main, __zfmain
+0	39	331	#line 39 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	40	331		brtst 4, __NXC_Label_527, __zfmain
+0	39	334	#line 39 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	40	334		mov __D0main, __constValNeg50
+0	40	336	#line 40 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	41	336	#pragma macro 7
+0	41	336		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3909	359	#line 3909 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	40	359	#line 40 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	42	359	#line 42 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	43	359		jmp __NXC_Label_530
+0	42	361	#line 42 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	42	361	#line 42 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	42	361	#line 42 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	42	361	#line 42 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	43	361		sub __signed_stack_001main, goal, dist
+0	42	365	#line 42 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	42	365	#line 42 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	42	365	#line 42 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	43	365		mul __D0main, __signed_stack_001main, __constVal4
+0	43	369	#line 43 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	44	369	#pragma macro 7
+0	44	369		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3933	392	#line 3933 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	43	392	#line 43 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	45	392	#line 45 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	45	392	#line 45 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	47	392	#line 47 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	48	392		jmp __NXC_Label_513
+0	47	394	#line 47 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+0	48	394		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5710	0	#pragma macro 25
+2	5710	0		acquire __CLSWMutex1
+2	5710	1		set __CLSWArgs1.Port, 1
+2	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+2	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+2	5710	8		syscall 21, __CLSWArgs1
+2	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+2	5710	13		release __CLSWMutex1
+2	5710	14	#line 5710 "NXTDefs.h"
+2	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+2	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+2	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+2	5714	24		set __RLSBIterations1, 4
+2	5716	27	#pragma macro 23
+2	5716	27		acquire __CLSCSMutex1
+2	5716	28		set __CLSCSArgs1.Port, 1
+2	5716	31		syscall 23, __CLSCSArgs1
+2	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+2	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+2	5716	38		release __CLSCSMutex1
+2	5716	39	#line 5716 "NXTDefs.h"
+2	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+2	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+2	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+2	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+2	5722	52		wait2 NA, __constVal15
+2	5723	55		jmp __RLSBDoCheckStatus1
+2	5726	57	#pragma macro 25
+2	5726	57		acquire __CLSRMutex1
+2	5726	58		set __CLSRArgs1.Port, 1
+2	5726	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+2	5726	63		syscall 22, __CLSRArgs1
+2	5726	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+2	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
+2	5726	70		release __CLSRMutex1
+2	5726	71	#line 5726 "NXTDefs.h"
+2	5727	71		brtst 5, __RLSBError1, __RLSBResult1
+2	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
+2	5729	76		jmp __RLSBDone1
+2	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
+2	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
+2	5735	83		subret ____ReadLSBytes1_return
+3	48	0	#line 48 "C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc"
+3	49	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc
+1	__ResetSensorSubroutine	397	NXTDefs.h
+2	__ReadLSBytes1	410	NXTDefs.h
+3	__initialize_global_data	495	C:\Users\navin\GSET\line-follower\StalkerBot-with-calibration.nxc

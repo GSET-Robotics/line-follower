@@ -1,0 +1,210 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0SetSensorLight_inline_main	5	1	0	4	2
+1	__signed_stack_001main	6	1	4	4	6
+2	__signed_stack_002main	6	1	8	4	2
+3	__D0SetSensorLight_inline_main	6	1	12	4	3
+4	__D0main	6	1	16	4	17
+5	__main_7qG2_MOTOR_SPEED_7qG2_000	4	1	20	2	3
+6	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	22	1	2
+7	__zfSetSensorLight_inline_main	1	1	23	1	2
+8	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	24	1	2
+9	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	25	1	2
+10	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	26	1	2
+11	____initialize_global_data_return	1	1	27	1	3
+12	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	28	1	4
+13	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	29	1	2
+14	__constVal0	2	1	30	1	23
+15	__constVal3	2	0	31	1	6
+16	__ResetSensorPort	1	1	32	1	3
+17	__constVal63	2	0	33	1	6
+18	__constVal32	2	0	34	1	18
+19	__constVal1	2	0	35	1	2
+20	__ResetSensorTmp	1	1	36	1	2
+21	__PFTmp	1	1	37	1	1
+22	__zfmain	1	1	38	1	8
+23	__constVal96	2	0	39	1	6
+24	____ResetSensorSubroutine_return	1	1	40	1	3
+25	__constVal2	2	0	41	1	5
+26	__TextOutArgs	8	0	4	16	6
+27	__TextOutArgs.Result	2	1	44	1	6
+28	__TextOutArgs.Location	8	0	2	4	6
+29	__TextOutArgs.Location.X	4	1	48	2	6
+30	__TextOutArgs.Location.Y	4	1	50	2	6
+31	__TextOutArgs.Text	7	0	52	4	6
+32	__TextOutArgs.Text.Text_type	1	0	0	1	0
+33	__TextOutArgs.Options	5	1	56	4	6
+34	__OUT_AC	7	0	60	4	2
+35	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+36	__strbufmain	7	0	62	4	2
+37	__strbufmain.__strbufmain_type	1	0	0	1	0
+38	__strretvalmain	7	0	64	4	2
+39	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	1	0	#line 1 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	2	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	1	2	#line 1 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	1	2	#line 1 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	3	2	#line 3 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	4	2		set __main_7qG2_MOTOR_SPEED_7qG2_000, 40
+0	3	5	#line 3 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	3	5	#line 3 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	4	5		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	3	8	#line 3 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	5	8	#line 5 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	6	8		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	10	#line 3729 "NXCDefs.h"
+0	3730	10		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	12	#line 3729 "NXCDefs.h"
+0	3729	12	#line 3729 "NXCDefs.h"
+0	3730	12		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	14	#line 3729 "NXCDefs.h"
+0	3730	14		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	17	#line 3729 "NXCDefs.h"
+0	3730	17		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	20	#line 3729 "NXCDefs.h"
+0	3730	20		set __D0SetSensorLight_inline_main, 5
+0	3729	23	#line 3729 "NXCDefs.h"
+0	3730	23		jmp __001__NXC_Label_5
+0	3729	25	#line 3729 "NXCDefs.h"
+0	3730	25		set __D0SetSensorLight_inline_main, 6
+0	3729	28	#line 3729 "NXCDefs.h"
+0	3730	28		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	30	#line 3663 "NXCDefs.h"
+0	3664	30		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	34	#line 3663 "NXCDefs.h"
+0	3730	34	#line 3730 "NXCDefs.h"
+0	3730	34	#line 3730 "NXCDefs.h"
+0	3731	34		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	36	#line 3730 "NXCDefs.h"
+0	3730	36	#line 3730 "NXCDefs.h"
+0	3731	36		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	39	#line 3730 "NXCDefs.h"
+0	3676	39	#line 3676 "NXCDefs.h"
+0	3677	39		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	43	#line 3676 "NXCDefs.h"
+0	3731	43	#line 3731 "NXCDefs.h"
+0	3731	43	#line 3731 "NXCDefs.h"
+0	3731	43	#line 3731 "NXCDefs.h"
+0	3694	43	#line 3694 "NXCDefs.h"
+0	3695	43	#pragma macro 4
+0	3695	43		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	45		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3624	47	#line 3624 "NXCDefs.h"
+0	3694	47	#line 3694 "NXCDefs.h"
+0	3732	47	#line 3732 "NXCDefs.h"
+0	5	47	#line 5 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	5	47	#line 5 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	6	47		set __D0main, 1
+0	6	50	#line 6 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	7	50		tst 5, __zfmain, __D0main
+0	6	53	#line 6 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	7	53		brtst 4, __NXC_Label_494, __zfmain
+0	6	56	#line 6 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	7	56		getin __signed_stack_001main, __constVal2, 4
+0	6	60	#line 6 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	6	60	#line 6 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	7	60		set __D0main, 28
+0	6	63	#line 6 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	7	63		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	6	67	#line 6 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	7	67		mov __D0main, __zfmain
+0	7	69	#line 7 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	8	69		brtst 4, __NXC_Label_499, __zfmain
+0	8	72	#line 8 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	9	72	#pragma macro 7
+0	9	72		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3652	95	#line 3652 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	8	95	#line 8 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	8	95	#line 8 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	9	95		mov __D0main, __main_7qG2_MOTOR_SPEED_7qG2_000
+0	9	97	#line 9 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	10	97	#pragma macro 7
+0	10	97		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3659	120	#line 3659 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	9	120	#line 9 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	10	120	#line 10 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	11	120		jmp __NXC_Label_502
+0	10	122	#line 10 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	11	122		getin __signed_stack_001main, __constVal2, 4
+0	10	126	#line 10 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	10	126	#line 10 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	11	126		set __D0main, 40
+0	10	129	#line 10 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	11	129		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	10	133	#line 10 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	11	133		mov __D0main, __zfmain
+0	11	135	#line 11 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	12	135		brtst 4, __NXC_Label_505, __zfmain
+0	12	138	#line 12 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	13	138	#pragma macro 7
+0	13	138		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3679	161	#line 3679 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	12	161	#line 12 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	12	161	#line 12 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	13	161		mov __D0main, __main_7qG2_MOTOR_SPEED_7qG2_000
+0	13	163	#line 13 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	14	163	#pragma macro 7
+0	14	163		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3686	186	#line 3686 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	13	186	#line 13 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	15	186	#line 15 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	16	186		jmp __NXC_Label_508
+0	15	188	#line 15 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	16	188		set __D0main, 50
+0	16	191	#line 16 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	17	191	#pragma macro 7
+0	17	191		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3696	214	#line 3696 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	16	214	#line 16 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	17	214	#line 17 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	17	214	#line 17 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	17	214	#line 17 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	18	214		set __signed_stack_001main, 2
+0	17	217	#line 17 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	17	217	#line 17 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	18	217		set __signed_stack_002main, 2
+0	17	220	#line 17 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	17	220	#line 17 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	18	220		getin __D0main, __constVal2, 4
+0	17	224	#line 17 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	18	224		numtostr __strretvalmain, __D0main
+0	17	227	#line 17 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	18	227		strcat __strbufmain, __strretvalmain
+0	18	231	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	18	231	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	19	231		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	18	233	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	19	233		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	18	235	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	19	235		set __TextOutArgs.Options, 0
+0	18	238	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	19	238		mov __TextOutArgs.Text, __strbufmain
+0	18	240	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	19	240		syscall 13, __TextOutArgs
+0	18	243	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	19	243		mov __D0main, __TextOutArgs.Result
+0	18	245	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	18	245	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	18	245	#line 18 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	19	245	#line 19 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	20	245		jmp __NXC_Label_493
+0	19	247	#line 19 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	20	247	#line 20 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	21	247	#pragma macro 7
+0	21	247		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3745	270	#line 3745 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	20	270	#line 20 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+0	21	270		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	23	0	#line 23 "C:\Users\navin\GSET\line-follower\line_folllower.nxc"
+2	24	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\navin\GSET\line-follower\line_folllower.nxc
+1	__ResetSensorSubroutine	273	NXTDefs.h
+2	__initialize_global_data	286	C:\Users\navin\GSET\line-follower\line_folllower.nxc

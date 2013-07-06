@@ -1,4 +1,46 @@
+int dist;
+int goal;
+
+// Move forward Quickly till less than 30
+// Move forward slowly till we Bump
+// Store the current Reading
+// Start our Stalk code and run forever
+
+
+
 task main() {
-  OnFwd(OUT_AB, 75);
-  wait(10);
+  SetSensorUltrasonic(S2);
+  SetSensorTouch(S1);
+  SetSensorTouch(S4);
+
+// Move forward until 30
+while(SensorUS(S2)>30){
+    OnFwd(OUT_AC, 100);
+    Wait(15);
+}
+
+// Move forward slow until touch
+while(SENSOR_1 == 0 && SENSOR_4 == 0){
+    OnFwd(OUT_AC,25);
+    Wait(15);
+}
+
+// Store Value
+Off(OUT_AC);
+goal=SensorUS(S2);
+
+
+// Stalk code
+  while(true){
+    dist=SensorUS(S2);
+    if(dist>40){
+      OnFwd(OUT_AC,75);
+    }
+    else if(dist<20){
+      OnFwd(OUT_AC,-50);
+    }
+    else{
+      OnFwd(OUT_AC,(goal-dist)*4);
+    }
+  }
 }

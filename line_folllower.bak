@@ -1,0 +1,9 @@
+  task main() {
+    SetSensorLight(S3);
+
+    while (SensorValue(S3) > 30) {
+      OnFwd(OUT_AC, 50);
+      Wait(1000);
+      TextOut(2,2, NumToStr(SensorValue(S3)));
+    }
+  }
