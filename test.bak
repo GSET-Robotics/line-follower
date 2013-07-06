@@ -1,4 +1,4 @@
 task main() {
   OnFwd(OUT_AB, 75);
-  wait(10);S
+  wait(10);
 }
