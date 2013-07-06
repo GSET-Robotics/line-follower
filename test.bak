@@ -15,7 +15,11 @@ task main() {
 
 // Move forward until 30
 while(SensorUS(S2)>30){
+<<<<<<< HEAD
     OnFwd(OUT_AC, 100);
+=======
+    OnFwd(OUT_AC,75);
+>>>>>>> 30bfc5983a784e7240e0b838cfb886b2660b13c5
     Wait(15);
 }
 
