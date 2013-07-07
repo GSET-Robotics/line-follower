@@ -1,9 +1,11 @@
   task main() {
-
     // define variables
-    int MOTOR_SPEED = 40;
-    int black, white, x;
-    
+    int MOTOR_SPEED = 20;
+    int VARIABLE_SPEED  = 40;
+    unsigned int black, white, x;
+    float range, value;
+    float y;
+
     // set up sensors
     SetSensorLight(S3);
 
@@ -12,7 +14,7 @@
     RotateMotor(OUT_C, 75, 360);
     Wait(1000);
     white = SensorRaw(S3);
-    RotateMotor(OUT_C, -75, 290);
+    RotateMotor(OUT_C, -75, 360);
 
     // TextOut(0, LCD_LINE1, NumToStr(black));
     // TextOut(0, LCD_LINE2, NumToStr(white));
@@ -20,22 +22,17 @@
     Wait(1000);
 
     while (true) {
+    
       // get x between 0 and 1 in white to black range
       x = SensorRaw(S3);
-      x = (x - white) / (black - white)
-      
-      if (SensorValue(S3) < 28 ) {
-        Off(OUT_C);
-        OnFwd(OUT_A, MOTOR_SPEED);
-      }
-      else if (SensorValue(S3) > 40) {
-        Off(OUT_A);
-        OnFwd(OUT_C, MOTOR_SPEED);
-      }
-      else {
-        OnFwd(OUT_AC, 50);
-      }
-      TextOut(2,2, NumToStr(SensorValue(S3)));
+      value = x - white;
+      range = black - white;
+      y = (2 * value / range) - 1;
+
+      TextOut(0, 0 , NumToStr(y));
+
+      OnFwd(OUT_A, MOTOR_SPEED + VARIABLE_SPEED * y);
+      OnFwd(OUT_C, MOTOR_SPEED + VARIABLE_SPEED * (-y));
     }
     Off(OUT_AC);
   }
