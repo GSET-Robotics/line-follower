@@ -2,12 +2,13 @@
     // define variables
     int MOTOR_SPEED = 20;
     int VARIABLE_SPEED  = 40;
-    unsigned int black, white, x;
+    unsigned int black, white, x, c;
     float range, value;
     float y;
 
     // set up sensors
     SetSensorLight(S3);
+    SetSensorType(S1, SENSOR_TYPE_LOWSPEED);
 
     // calibrate white and black colors
     black = SensorRaw(S3);
@@ -25,12 +26,15 @@
     
       // get x between 0 and 1 in white to black range
       x = SensorRaw(S3);
+      c = SensorHTColorNum(S1);
       value = x - white;
       range = black - white;
       y = (2 * value / range) - 1;
 
       TextOut(0, 0 , NumToStr(y));
-
+      ClearLine(LCD_LINE3);
+      NumOut(10,LCD_LINE3,c);
+      
       OnFwd(OUT_A, MOTOR_SPEED + VARIABLE_SPEED * y);
       OnFwd(OUT_C, MOTOR_SPEED + VARIABLE_SPEED * (-y));
     }
