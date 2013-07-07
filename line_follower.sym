@@ -1,0 +1,347 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	10
+1	__main_7qG2_range_7qG2_000	10	1	4	4	2
+2	__main_7qG2_value_7qG2_000	10	1	8	4	2
+3	__float_stack_001main	10	1	12	4	4
+4	__signed_stack_002main	6	1	16	4	4
+5	__rotate_theAngle2	5	1	20	4	2
+6	__main_7qG2_y_7qG2_000	10	1	24	4	4
+7	__rotate_angle2	6	1	28	4	5
+8	__D0main	6	1	32	4	6
+9	__D0SetSensorLight_inline_main	6	1	36	4	3
+10	__DF0main	10	1	40	4	12
+11	__DU0SetSensorLight_inline_main	5	1	44	4	2
+12	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	48	4	2
+13	__rotate_OldRotCount2	4	1	52	2	2
+14	__rotate_RotCount2	4	1	54	2	4
+15	__main_7qG2_black_7qG2_000	3	1	56	2	2
+16	__main_7qG2_white_7qG2_000	3	1	58	2	3
+17	__main_7qG2_x_7qG2_000	3	1	60	2	2
+18	__main_7qG2_MOTOR_SPEED_7qG2_000	4	1	62	2	3
+19	__main_7qG2_VARIABLE_SPEED_7qG2_000	4	1	64	2	3
+20	__zfmain	1	1	66	1	2
+21	__constVal2	2	0	67	1	7
+22	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	68	1	2
+23	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	69	1	2
+24	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	70	1	2
+25	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	71	1	2
+26	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	72	1	2
+27	__zfSetSensorLight_inline_main	1	1	73	1	2
+28	____initialize_global_data_return	1	1	74	1	3
+29	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	75	1	4
+30	__rotate_theRM2	1	1	76	1	4
+31	__rotate_theOM2	1	1	77	1	7
+32	__rotate_theUF2	1	1	78	1	6
+33	__rotate_theRVI2	1	1	79	1	3
+34	__rotate_theRVP2	1	1	80	1	3
+35	__rotate_theRS2	1	1	81	1	3
+36	__rotate_firstPort2	1	1	82	1	5
+37	__rotate_power2	1	1	83	1	5
+38	__constVal63	2	0	84	1	3
+39	__rotate_turnpct2	2	1	85	1	4
+40	__rotate_stop2	1	1	86	1	3
+41	__rotate_sync2	1	1	87	1	3
+42	__rotate_theRVD2	1	1	88	1	3
+43	__ResetSensorPort	1	1	89	1	3
+44	__constVal3	2	0	90	1	3
+45	____RotateMotor2_return	1	1	91	1	4
+46	__constVal96	2	0	92	1	5
+47	____ResetSensorSubroutine_return	1	1	93	1	3
+48	__ResetSensorTmp	1	1	94	1	2
+49	__rotate_theTurnPct2	2	1	95	1	4
+50	__rotate_thePower2	2	1	96	1	4
+51	__rotate_rs2	1	1	97	1	2
+52	__constVal0	2	1	98	1	21
+53	__constVal1	2	0	99	1	7
+54	__constVal32	2	0	100	1	14
+55	__TextOutArgs	8	0	4	16	5
+56	__TextOutArgs.Result	2	1	104	1	5
+57	__TextOutArgs.Location	8	0	2	4	5
+58	__TextOutArgs.Location.X	4	1	108	2	5
+59	__TextOutArgs.Location.Y	4	1	110	2	5
+60	__TextOutArgs.Text	7	0	112	4	5
+61	__TextOutArgs.Text.Text_type	1	0	0	1	0
+62	__TextOutArgs.Options	5	1	116	4	5
+63	__rotate_ports2	7	0	120	4	7
+64	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+65	__OUT_AC	7	0	122	4	1
+66	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+67	__strbufmain	7	0	124	4	2
+68	__strbufmain.__strbufmain_type	1	0	0	1	0
+69	__strretvalmain	7	0	126	4	2
+70	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	3	2	#line 3 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	4	2		set __main_7qG2_MOTOR_SPEED_7qG2_000, 20
+0	3	5	#line 3 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	4	5	#line 4 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	5	5		set __main_7qG2_VARIABLE_SPEED_7qG2_000, 40
+0	4	8	#line 4 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	9	8	#line 9 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	10	8		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	9	11	#line 9 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	11	#line 12 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	13	11		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	13	#line 3729 "NXCDefs.h"
+0	3730	13		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	15	#line 3729 "NXCDefs.h"
+0	3729	15	#line 3729 "NXCDefs.h"
+0	3730	15		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	17	#line 3729 "NXCDefs.h"
+0	3730	17		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	20	#line 3729 "NXCDefs.h"
+0	3730	20		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	23	#line 3729 "NXCDefs.h"
+0	3730	23		set __D0SetSensorLight_inline_main, 5
+0	3729	26	#line 3729 "NXCDefs.h"
+0	3730	26		jmp __001__NXC_Label_5
+0	3729	28	#line 3729 "NXCDefs.h"
+0	3730	28		set __D0SetSensorLight_inline_main, 6
+0	3729	31	#line 3729 "NXCDefs.h"
+0	3730	31		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	33	#line 3663 "NXCDefs.h"
+0	3664	33		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	37	#line 3663 "NXCDefs.h"
+0	3730	37	#line 3730 "NXCDefs.h"
+0	3730	37	#line 3730 "NXCDefs.h"
+0	3731	37		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	39	#line 3730 "NXCDefs.h"
+0	3730	39	#line 3730 "NXCDefs.h"
+0	3731	39		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	42	#line 3730 "NXCDefs.h"
+0	3676	42	#line 3676 "NXCDefs.h"
+0	3677	42		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	46	#line 3676 "NXCDefs.h"
+0	3731	46	#line 3731 "NXCDefs.h"
+0	3731	46	#line 3731 "NXCDefs.h"
+0	3731	46	#line 3731 "NXCDefs.h"
+0	3694	46	#line 3694 "NXCDefs.h"
+0	3695	46	#pragma macro 4
+0	3695	46		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	48		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5998	50	#line 5998 "NXCDefs.h"
+0	3694	50	#line 3694 "NXCDefs.h"
+0	3732	50	#line 3732 "NXCDefs.h"
+0	12	50	#line 12 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	13	50	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	14	50		getin __main_7qG2_black_7qG2_000, __constVal2, 2
+0	13	54	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	13	54	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	13	54	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	14	54		set __signed_stack_001main, 75
+0	13	57	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	13	57	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	14	57		set __D0main, 360
+0	14	60	#line 14 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	15	60	#pragma macro 33
+0	15	60		arrbuild __rotate_ports2, __constVal2
+0	15	64		mov __rotate_power2, __signed_stack_001main
+0	15	66		mov __rotate_angle2, __D0main
+0	15	68		mov __rotate_turnpct2, __constVal0
+0	15	70		mov __rotate_sync2, __constVal0
+0	15	72		mov __rotate_stop2, __constVal1
+0	15	74		mov __rotate_theRVP2, __constVal32
+0	15	76		mov __rotate_theRVI2, __constVal0
+0	15	78		mov __rotate_theRVD2, __constVal96
+0	15	80		subcall __RotateMotor2, ____RotateMotor2_return
+0	6020	82	#line 6020 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	14	82	#line 14 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	14	82	#line 14 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	15	82		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	14	85	#line 14 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	7921	85	#line 7921 "NXCDefs.h"
+0	7922	85		wait 1000
+0	7921	87	#line 7921 "NXCDefs.h"
+0	15	87	#line 15 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	16	87	#line 16 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	17	87		getin __main_7qG2_white_7qG2_000, __constVal2, 2
+0	16	91	#line 16 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	16	91	#line 16 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	16	91	#line 16 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	17	91		set __signed_stack_001main, -75
+0	16	94	#line 16 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	16	94	#line 16 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	17	94		set __D0main, 360
+0	21	97	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	22	97	#pragma macro 33
+0	22	97		arrbuild __rotate_ports2, __constVal2
+0	22	101		mov __rotate_power2, __signed_stack_001main
+0	22	103		mov __rotate_angle2, __D0main
+0	22	105		mov __rotate_turnpct2, __constVal0
+0	22	107		mov __rotate_sync2, __constVal0
+0	22	109		mov __rotate_stop2, __constVal1
+0	22	111		mov __rotate_theRVP2, __constVal32
+0	22	113		mov __rotate_theRVI2, __constVal0
+0	22	115		mov __rotate_theRVD2, __constVal96
+0	22	117		subcall __RotateMotor2, ____RotateMotor2_return
+0	6054	119	#line 6054 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	21	119	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	21	119	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	22	119		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	21	122	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	7921	122	#line 7921 "NXCDefs.h"
+0	7922	122		wait 1000
+0	7921	124	#line 7921 "NXCDefs.h"
+0	23	124	#line 23 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	23	124	#line 23 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	24	124		set __D0main, 1
+0	26	127	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	27	127		tst 5, __zfmain, __D0main
+0	26	130	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	27	130		brtst 4, __NXC_Label_627, __zfmain
+0	27	133	#line 27 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	28	133		getin __main_7qG2_x_7qG2_000, __constVal2, 2
+0	27	137	#line 27 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	27	137	#line 27 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	27	137	#line 27 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	27	137	#line 27 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	28	137	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	28	137	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	137		sub __main_7qG2_value_7qG2_000, __main_7qG2_x_7qG2_000, __main_7qG2_white_7qG2_000
+0	28	141	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	28	141	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	28	141	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	28	141	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	141	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	141	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	30	141		sub __main_7qG2_range_7qG2_000, __main_7qG2_black_7qG2_000, __main_7qG2_white_7qG2_000
+0	29	145	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	145	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	145	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	145	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	145	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	145	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	30	145		mul __float_stack_001main, __constVal2, __main_7qG2_value_7qG2_000
+0	29	149	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	149	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	29	149	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	30	149		div __float_stack_001main, __float_stack_001main, __main_7qG2_range_7qG2_000
+0	29	153	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	31	153	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	31	153	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	32	153		sub __main_7qG2_y_7qG2_000, __float_stack_001main, __constVal1
+0	31	157	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	31	157	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	31	157	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	32	157		set __signed_stack_001main, 0
+0	31	160	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	31	160	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	32	160		set __signed_stack_002main, 0
+0	31	163	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	31	163	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	32	163		mov __DF0main, __main_7qG2_y_7qG2_000
+0	31	165	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	32	165		numtostr __strretvalmain, __DF0main
+0	31	168	#line 31 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	32	168		strcat __strbufmain, __strretvalmain
+0	33	172	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	33	172	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	172		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	33	174	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	174		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	33	176	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	176		set __TextOutArgs.Options, 0
+0	33	179	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	179		mov __TextOutArgs.Text, __strbufmain
+0	33	181	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	181		syscall 13, __TextOutArgs
+0	33	184	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	33	184	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	33	184	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	33	184	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	184		mov __signed_stack_001main, __main_7qG2_MOTOR_SPEED_7qG2_000
+0	33	186	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	33	186	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	33	186	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	33	186	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	33	186	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	186		mul __DF0main, __main_7qG2_VARIABLE_SPEED_7qG2_000, __main_7qG2_y_7qG2_000
+0	33	190	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	190		add __DF0main, __signed_stack_001main, __DF0main
+0	34	194	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	35	194	#pragma macro 7
+0	35	194		setout __constVal0, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6189	217	#line 6189 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	217	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	217	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	35	217		mov __signed_stack_001main, __main_7qG2_MOTOR_SPEED_7qG2_000
+0	34	219	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	219	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	35	219		mov __signed_stack_002main, __main_7qG2_VARIABLE_SPEED_7qG2_000
+0	34	221	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	221	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	221	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	221	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	34	221	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	35	221		sub __DF0main, __constVal0, __main_7qG2_y_7qG2_000
+0	34	225	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	35	225		mul __DF0main, __signed_stack_002main, __DF0main
+0	34	229	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	35	229		add __DF0main, __signed_stack_001main, __DF0main
+0	35	233	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	36	233	#pragma macro 7
+0	36	233		setout __constVal2, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6216	256	#line 6216 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	35	256	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	36	256	#line 36 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	37	256		jmp __NXC_Label_626
+0	36	258	#line 36 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	37	258	#line 37 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	38	258	#pragma macro 7
+0	38	258		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6223	281	#line 6223 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	37	281	#line 37 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	38	281		exit -1, -1
+1	4582	0		brtst 4, __rotate_Done2, __rotate_angle2
+1	4583	3		sign __rotate_thePower2, __rotate_angle2
+1	4584	6		abs __rotate_theAngle2, __rotate_angle2
+1	4585	9		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+1	4587	13		set __rotate_theUF2, 23
+1	4588	16		brtst 4, __rotate_NoSync2, __rotate_sync2
+1	4589	19		set __rotate_theOM2, 7
+1	4590	22		set __rotate_theRM2, 2
+1	4591	25		mov __rotate_theTurnPct2, __rotate_turnpct2
+1	4592	27		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+1	4593	30		add __rotate_theUF2, __rotate_theUF2, __constVal32
+1	4594	34		jmp __rotate_Start2
+1	4596	36		set __rotate_theOM2, 3
+1	4597	39		set __rotate_theRM2, 0
+1	4598	42		set __rotate_theTurnPct2, 0
+1	4600	45		set __rotate_theRS2, 32
+1	4601	48		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+1	4604	71		index __rotate_firstPort2, __rotate_ports2, 65535
+1	4606	75		getout __rotate_power2, __rotate_firstPort2, 2
+1	4607	79		brtst 4, __rotate_doneRunning2, __rotate_power2
+1	4608	82		getout __rotate_rs2, __rotate_firstPort2, 6
+1	4609	86		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+1	4611	90		brtst 4, __rotate_Reset2, __rotate_stop2
+1	4613	93		set __rotate_theOM2, 7
+1	4614	96		set __rotate_theUF2, 7
+1	4615	99		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+1	4617	114		getout __rotate_RotCount2, __rotate_firstPort2, 14
+1	4619	118		mov __rotate_OldRotCount2, __rotate_RotCount2
+1	4620	120		wait 50
+1	4622	122		getout __rotate_RotCount2, __rotate_firstPort2, 14
+1	4623	126		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+1	4624	130		set __rotate_theOM2, 4
+1	4625	133		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+1	4628	144		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+1	4629	147		setout __rotate_ports2, 0, __constVal32
+1	4631	152		subret ____RotateMotor2_return
+2	4885	0		setin __constVal1, __ResetSensorPort, 5
+2	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	4889	11		subret ____ResetSensorSubroutine_return
+3	40	0	#line 40 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+3	41	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\navin\AppData\Local\Temp\temp.nxc
+1	__RotateMotor2	284	NXTDefs.h
+2	__ResetSensorSubroutine	438	NXTDefs.h
+3	__initialize_global_data	451	C:\Users\navin\AppData\Local\Temp\temp.nxc
