@@ -1,177 +1,213 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0main	6	1	0	4	7
-1	__RLSBmutex0	9	0	4	4	2
-2	__CLSRMutex0	9	0	8	4	2
-3	__signed_stack_002main	6	1	12	4	2
-4	__signed_stack_001main	6	1	16	4	2
+0	__signed_stack_002main	6	1	0	4	2
+1	__unsigned_stack_001main	5	1	4	4	2
+2	__unsigned_stack_002main	5	1	8	4	2
+3	__signed_stack_001main	6	1	12	4	4
+4	__D0main	6	1	16	4	13
 5	__DU0main	5	1	20	4	2
-6	__CLSWMutex0	9	0	24	4	2
-7	__CLSCSMutex0	9	0	28	4	2
-8	__main_7qG2_c_7qG2_000	3	1	32	2	2
-9	__constVal0	2	1	34	1	4
-10	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	35	1	2
-11	__RLSBIterations0	1	1	36	1	4
-12	__constVal1	2	0	37	1	1
-13	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	38	1	2
-14	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	39	1	2
-15	____initialize_global_data_return	1	1	40	1	3
-16	__RLSBytesCount0	1	1	41	1	7
-17	____ReadLSBytes0_return	1	1	42	1	3
-18	__LSWriteOptions0	1	1	43	1	1
-19	__RLSBResult0	2	1	44	1	7
-20	__TextOutArgs	8	0	4	16	11
-21	__TextOutArgs.Result	2	1	48	1	11
-22	__TextOutArgs.Location	8	0	2	4	11
-23	__TextOutArgs.Location.X	4	1	52	2	11
-24	__TextOutArgs.Location.Y	4	1	54	2	11
-25	__TextOutArgs.Text	7	0	56	4	11
-26	__TextOutArgs.Text.Text_type	1	0	0	1	0
-27	__TextOutArgs.Options	5	1	60	4	11
-28	__CLSWArgs0	8	0	4	12	5
-29	__CLSWArgs0.Result	2	1	64	1	5
-30	__CLSWArgs0.Port	1	1	65	1	5
-31	__CLSWArgs0.Buffer	7	0	66	4	5
-32	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
-33	__CLSWArgs0.ReturnLen	1	1	68	1	5
-34	__CLSRArgs0	8	0	4	12	5
-35	__CLSRArgs0.Result	2	1	72	1	5
-36	__CLSRArgs0.Port	1	1	73	1	5
-37	__CLSRArgs0.Buffer	7	0	74	4	5
-38	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
-39	__CLSRArgs0.BufferLen	1	1	76	1	5
-40	__CLSCSArgs0	8	0	3	4	4
-41	__CLSCSArgs0.Result	2	1	80	1	4
-42	__CLSCSArgs0.Port	1	1	81	1	4
-43	__CLSCSArgs0.BytesReady	1	1	82	1	4
-44	__BlankLine	7	0	84	4	1
-45	__BlankLine.__BlankLine_type	1	0	0	1	0
-46	__RLSLastGoodRead0	7	0	86	4	2
-47	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
-48	__RLSReadBuf0	7	0	88	4	8
-49	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
-50	__RLSBbufLSWrite1	7	0	90	4	1
-51	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+6	__RLSBmutex3	9	0	24	4	2
+7	__CLSRMutex3	9	0	28	4	2
+8	__CLSCSMutex3	9	0	32	4	2
+9	__CLSWMutex3	9	0	36	4	2
+10	__main_7qG2_c_7qG2_000	3	1	40	2	4
+11	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	42	1	2
+12	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	43	1	2
+13	__zfmain	1	1	44	1	9
+14	____initialize_global_data_return	1	1	45	1	3
+15	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	46	1	2
+16	__RLSBIterations3	1	1	47	1	4
+17	__constVal0	2	1	48	1	3
+18	____ReadLSBytes3_return	1	1	49	1	3
+19	__RLSBResult3	2	1	50	1	7
+20	__constVal1	2	0	51	1	1
+21	__RLSBytesCount3	1	1	52	1	7
+22	__TextOutArgs	8	0	4	16	11
+23	__TextOutArgs.Result	2	1	56	1	11
+24	__TextOutArgs.Location	8	0	2	4	11
+25	__TextOutArgs.Location.X	4	1	60	2	11
+26	__TextOutArgs.Location.Y	4	1	62	2	11
+27	__TextOutArgs.Text	7	0	64	4	11
+28	__TextOutArgs.Text.Text_type	1	0	0	1	0
+29	__TextOutArgs.Options	5	1	68	4	11
+30	__CLSRArgs3	8	0	4	12	5
+31	__CLSRArgs3.Result	2	1	72	1	5
+32	__CLSRArgs3.Port	1	1	73	1	5
+33	__CLSRArgs3.Buffer	7	0	74	4	5
+34	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+35	__CLSRArgs3.BufferLen	1	1	76	1	5
+36	__CLSCSArgs3	8	0	3	4	4
+37	__CLSCSArgs3.Result	2	1	80	1	4
+38	__CLSCSArgs3.Port	1	1	81	1	4
+39	__CLSCSArgs3.BytesReady	1	1	82	1	4
+40	__CLSWArgs3	8	0	4	12	5
+41	__CLSWArgs3.Result	2	1	84	1	5
+42	__CLSWArgs3.Port	1	1	85	1	5
+43	__CLSWArgs3.Buffer	7	0	86	4	5
+44	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+45	__CLSWArgs3.ReturnLen	1	1	88	1	5
+46	__RLSLastGoodRead3	7	0	90	4	2
+47	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+48	__RLSReadBuf3	7	0	92	4	8
+49	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+50	__BlankLine	7	0	94	4	1
+51	__BlankLine.__BlankLine_type	1	0	0	1	0
+52	__RLSBbufLSWrite1	7	0	96	4	1
+53	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	1	0	#line 1 "C:\Users\David\AppData\Local\Temp\temp.nxc"
+0	1	0	#line 1 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	2	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	1	2	#line 1 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	3	2	#line 3 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	4	2		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
-0	3	5	#line 3 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	3	5	#line 3 "C:\Users\David\AppData\Local\Temp\temp.nxc"
+0	1	2	#line 1 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	3	2	#line 3 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	4	2		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 3
+0	3	5	#line 3 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	3	5	#line 3 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	4	5		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 10
-0	3	8	#line 3 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	4247	8	#line 4247 "NXCDefs.h"
-0	4248	8		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
-0	4247	12	#line 4247 "NXCDefs.h"
-0	5	12	#line 5 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	5	12	#line 5 "C:\Users\David\AppData\Local\Temp\temp.nxc"
+0	3	8	#line 3 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	3663	8	#line 3663 "NXCDefs.h"
+0	3664	8		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	12	#line 3663 "NXCDefs.h"
+0	5	12	#line 5 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	5	12	#line 5 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	6	12		set __D0main, 1
-0	7	15	#line 7 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	8	15		tst 5, __D0main, __D0main
-0	7	18	#line 7 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	8	18		brtst 4, __ASM_Label_609, __D0main
-0	7	21	#line 7 "C:\Users\David\AppData\Local\Temp\temp.nxc"
+0	7	15	#line 7 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	8	15		tst 5, __zfmain, __D0main
+0	7	18	#line 7 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	8	18		brtst 4, __NXC_Label_609, __zfmain
+0	7	21	#line 7 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	8	21	#pragma macro 24
-0	8	21		acquire __RLSBmutex0
-0	8	22		mov __RLSReadBuf0, __RLSBbufLSWrite1
-0	8	24		set __RLSBytesCount0, 1
-0	8	27		subcall __ReadLSBytes0, ____ReadLSBytes0_return
-0	8	29		index __D0main, __RLSReadBuf0, 65535
-0	8	33		release __RLSBmutex0
-0	5910	34	#line 5910 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	7	34	#line 7 "C:\Users\David\AppData\Local\Temp\temp.nxc"
+0	8	21		acquire __RLSBmutex3
+0	8	22		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	8	24		set __RLSBytesCount3, 1
+0	8	27		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	8	29		index __D0main, __RLSReadBuf3, 65535
+0	8	33		release __RLSBmutex3
+0	5979	34	#line 5979 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	7	34	#line 7 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	8	34		mov __main_7qG2_c_7qG2_000, __D0main
-0	7	36	#line 7 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	7	36	#line 7 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	9	36	#line 9 "C:\Users\David\AppData\Local\Temp\temp.nxc"
+0	7	36	#line 7 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	7	36	#line 7 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	9	36	#line 9 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	10	36		set __ClearLine_7qG2_line_7qG2_000_inline_main, 40
-0	9	39	#line 9 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	6685	39	#line 6685 "NXCDefs.h"
-0	6686	39	#pragma macro 7
-0	6686	39		mov __TextOutArgs.Location.X, __constVal0
-0	6686	41		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
-0	6686	43		mov __TextOutArgs.Options, __constVal0
-0	6686	45		mov __TextOutArgs.Text, __BlankLine
-0	6686	47		syscall 13, __TextOutArgs
-0	5926	50	#line 5926 "NXCDefs.h"
-0	6685	50	#line 6685 "NXCDefs.h"
-0	10	50	#line 10 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	10	50	#line 10 "C:\Users\David\AppData\Local\Temp\temp.nxc"
+0	9	39	#line 9 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	6076	39	#line 6076 "NXCDefs.h"
+0	6077	39	#pragma macro 7
+0	6077	39		mov __TextOutArgs.Location.X, __constVal0
+0	6077	41		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	43		mov __TextOutArgs.Options, __constVal0
+0	6077	45		mov __TextOutArgs.Text, __BlankLine
+0	6077	47		syscall 13, __TextOutArgs
+0	5997	50	#line 5997 "NXCDefs.h"
+0	6076	50	#line 6076 "NXCDefs.h"
+0	10	50	#line 10 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	10	50	#line 10 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	11	50		set __signed_stack_001main, 10
-0	10	53	#line 10 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	10	53	#line 10 "C:\Users\David\AppData\Local\Temp\temp.nxc"
+0	10	53	#line 10 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	10	53	#line 10 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	11	53		set __signed_stack_002main, 40
-0	10	56	#line 10 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	10	56	#line 10 "C:\Users\David\AppData\Local\Temp\temp.nxc"
+0	10	56	#line 10 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	10	56	#line 10 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	11	56		mov __DU0main, __main_7qG2_c_7qG2_000
-0	12	58	#line 12 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	12	58	#line 12 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	13	58		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	12	60	#line 12 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	13	60		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	12	62	#line 12 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	13	62		set __TextOutArgs.Options, 0
-0	12	65	#line 12 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	13	65		numtostr __TextOutArgs.Text, __DU0main
-0	12	68	#line 12 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	13	68		syscall 13, __TextOutArgs
-0	12	71	#line 12 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	13	71		mov __D0main, __TextOutArgs.Result
-0	12	73	#line 12 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	12	73	#line 12 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	16	73	#line 16 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	17	73		jmp __ASM_Label_608
-0	16	75	#line 16 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-0	17	75		exit -1, -1
-1	6281	0	#pragma macro 25
-1	6281	0		acquire __CLSWMutex0
-1	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
-1	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
-1	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
-1	6281	9		syscall 21, __CLSWArgs0
-1	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
-1	6281	14		release __CLSWMutex0
-1	6282	15	#line 6282 "NXTDefs.h"
-1	6283	15		brtst 5, __RLSBError0, __RLSBResult0
-1	6284	18		set __RLSBIterations0, 60
-1	6286	21	#pragma macro 23
-1	6286	21		acquire __CLSCSMutex0
-1	6286	22		set __CLSCSArgs0.Port, 0
-1	6286	25		syscall 23, __CLSCSArgs0
-1	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
-1	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
-1	6286	32		release __CLSCSMutex0
-1	6286	33	#line 6286 "NXTDefs.h"
-1	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
-1	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
-1	6289	40		brtst 0, __RLSBError0, __RLSBResult0
-1	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
-1	6292	46		wait 1
-1	6293	48		jmp __RLSBDoCheckStatus0
-1	6295	50		brtst 4, __RLSBReturn0, __RLSBytesCount0
-1	6296	53		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
-1	6298	57	#pragma macro 25
-1	6298	57		acquire __CLSRMutex0
-1	6298	58		set __CLSRArgs0.Port, 0
-1	6298	61		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
-1	6298	63		syscall 22, __CLSRArgs0
-1	6298	66		mov __RLSReadBuf0, __CLSRArgs0.Buffer
-1	6298	68		mov __RLSBResult0, __CLSRArgs0.Result
-1	6298	70		release __CLSRMutex0
-1	6298	71	#line 6298 "NXTDefs.h"
-1	6299	71		brtst 5, __RLSBError0, __RLSBResult0
-1	6300	74		mov __RLSLastGoodRead0, __RLSReadBuf0
-1	6301	76		jmp __RLSBDone0
-1	6303	78		mov __RLSReadBuf0, __RLSLastGoodRead0
-1	6305	80		arrsize __RLSBytesCount0, __RLSReadBuf0
-1	6307	83		subret ____ReadLSBytes0_return
-2	17	0	#line 17 "C:\Users\David\AppData\Local\Temp\temp.nxc"
-2	18	0		subret ____initialize_global_data_return
+0	11	58	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	11	58	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	58		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	11	60	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	60		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	11	62	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	62		set __TextOutArgs.Options, 0
+0	11	65	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	65		numtostr __TextOutArgs.Text, __DU0main
+0	11	68	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	68		syscall 13, __TextOutArgs
+0	11	71	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	71		mov __D0main, __TextOutArgs.Result
+0	11	73	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	11	73	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	11	73	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	73		mov __unsigned_stack_001main, __main_7qG2_c_7qG2_000
+0	11	75	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	11	75	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	75		set __D0main, 2
+0	11	78	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	78		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
+0	11	82	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	82		mov __D0main, __zfmain
+0	11	84	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	84		brtst 5, __NXC_Label_622, __zfmain
+0	11	87	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	87		mov __signed_stack_001main, __D0main
+0	11	89	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	89		mov __unsigned_stack_002main, __main_7qG2_c_7qG2_000
+0	11	91	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	11	91	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	91		set __D0main, 3
+0	11	94	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	94		cmp 4, __zfmain, __unsigned_stack_002main, __D0main
+0	11	98	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	11	98	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	12	98		or __D0main, __signed_stack_001main, __zfmain
+0	13	102	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	14	102		tst 5, __zfmain, __D0main
+0	13	105	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	14	105		brtst 4, __NXC_Label_625, __zfmain
+0	13	108	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	13	108	#line 13 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	7921	108	#line 7921 "NXCDefs.h"
+0	7922	108		wait 300
+0	7921	110	#line 7921 "NXCDefs.h"
+0	14	110	#line 14 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	18	110	#line 18 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	20	110	#line 20 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	21	110		jmp __NXC_Label_608
+0	20	112	#line 20 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	21	112		exit -1, -1
+1	5784	0	#pragma macro 25
+1	5784	0		acquire __CLSWMutex3
+1	5784	1		set __CLSWArgs3.Port, 3
+1	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+1	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+1	5784	8		syscall 21, __CLSWArgs3
+1	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+1	5784	13		release __CLSWMutex3
+1	5784	14	#line 5784 "NXTDefs.h"
+1	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+1	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+1	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+1	5788	24		set __RLSBIterations3, 4
+1	5790	27	#pragma macro 23
+1	5790	27		acquire __CLSCSMutex3
+1	5790	28		set __CLSCSArgs3.Port, 3
+1	5790	31		syscall 23, __CLSCSArgs3
+1	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+1	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+1	5790	38		release __CLSCSMutex3
+1	5790	39	#line 5790 "NXTDefs.h"
+1	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+1	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+1	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+1	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+1	5796	52		wait 15
+1	5797	54		jmp __RLSBDoCheckStatus3
+1	5800	56	#pragma macro 25
+1	5800	56		acquire __CLSRMutex3
+1	5800	57		set __CLSRArgs3.Port, 3
+1	5800	60		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+1	5800	62		syscall 22, __CLSRArgs3
+1	5800	65		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+1	5800	67		mov __RLSBResult3, __CLSRArgs3.Result
+1	5800	69		release __CLSRMutex3
+1	5800	70	#line 5800 "NXTDefs.h"
+1	5801	70		brtst 5, __RLSBError3, __RLSBResult3
+1	5802	73		mov __RLSLastGoodRead3, __RLSReadBuf3
+1	5803	75		jmp __RLSBDone3
+1	5805	77		mov __RLSReadBuf3, __RLSLastGoodRead3
+1	5807	79		arrsize __RLSBytesCount3, __RLSReadBuf3
+1	5809	82		subret ____ReadLSBytes3_return
+2	21	0	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+2	22	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\David\AppData\Local\Temp\temp.nxc
-1	__ReadLSBytes0	78	NXTDefs.h
-2	__initialize_global_data	163	C:\Users\David\AppData\Local\Temp\temp.nxc
+0	main	0	C:\Users\navin\AppData\Local\Temp\temp.nxc
+1	__ReadLSBytes3	115	NXTDefs.h
+2	__initialize_global_data	199	C:\Users\navin\AppData\Local\Temp\temp.nxc

@@ -1,21 +1,19 @@
   task main() {
     unsigned int c;
 
-    SetSensorType(S1, SENSOR_TYPE_LOWSPEED);
+    SetSensorType(S4, SENSOR_TYPE_LOWSPEED);
 
     while (true) {
 
-      c = SensorHTColorNum(S1);
-      value = x - white;
-      range = black - white;
-      y = (2 * value / range) - 1;
+      c = SensorHTColorNum(S4);
 
-      TextOut(0, 0 , NumToStr(y));
       ClearLine(LCD_LINE3);
       NumOut(10,LCD_LINE3,c);
+      if(c == 2 || c == 3) {
+      //do something. output sound to signal a dead man
+      wait(300);
+      }
 
-      OnFwd(OUT_A, MOTOR_SPEED + VARIABLE_SPEED * y);
-      OnFwd(OUT_C, MOTOR_SPEED + VARIABLE_SPEED * (-y));
     }
-    Off(OUT_AC);
+
   }
