@@ -1,12 +1,9 @@
-  #define MOTOR_SPEED 10.0;
-  #define SLOW_VAR 30.0;
-  #define FAST_VAR 50.0;
+ #define MOTOR_SPEED 25
+ #define VARIABLE_SPEED 50
+ #define BASE_ANGLE 530
 
-  task main() {
+ task main() {
     // define variables
-    float A_speed = MOTOR_SPEED;
-    float C_speed = MOTOR_SPEED;
-    int var;
     unsigned int black, white, x, c;
     float range, value;
     float y;
@@ -14,7 +11,6 @@
     // set up sensors
     SetSensorLight(S3);
     SetSensorType(S1, SENSOR_TYPE_LOWSPEED);
-    
 
     // calibrate white and black colors
     black = SensorRaw(S3);
@@ -28,7 +24,7 @@
 
     Wait(1000);
 
-    while (c != 7 || c != 8 || c != 9) {
+   while (c != 7 && c != 8 && c != 9) {
       // get x between 0 and 1 in white to black range
       x = SensorRaw(S3);
       c = SensorHTColorNum(S1);
@@ -36,53 +32,77 @@
       value = x - white;
       range = black - white;
       y = (2 * value / range) - 1;
-      TextOut(0, 0 , NumToStr(y));
 
-      if (y >= 0){
+      NumOut(0, LCD_LINE1 , c);
 
-        A_speed =(1.1 - y) * FAST_VAR - 20.0;
-        C_speed =(1.1 - y) * SLOW_VAR + 20.0;
+      if (y < -0.9) {
+           OnFwd(OUT_A, -1 * (MOTOR_SPEED + VARIABLE_SPEED * (-y)));
       }
       else {
-        A_speed = (1.1 - abs(y)) * SLOW_VAR + 20.0;
-        C_speed = (1.1 - abs(y)) * FAST_VAR - 20.0;
+           OnFwd(OUT_A, MOTOR_SPEED + VARIABLE_SPEED * y);
       }
-
-      ClearLine(LCD_LINE4);
-      ClearLine(LCD_LINE5);
-      NumOut(0, LCD_LINE4, A_speed);
-      NumOut(0, LCD_LINE5, C_speed);
-      OnFwd(OUT_A, A_speed);
-      OnFwd(OUT_C, C_speed);
-
-      ClearLine(LCD_LINE3);
-      NumOut(10,LCD_LINE3,c);
-      if(c == 2 || c == 3) {
-       //do something. output sound to signal a dead man
-       PlayToneEx(300, 400, 2, false);
+      if (y > 0.9) {
+          OnFwd(OUT_C, VARIABLE_SPEED * (-y) - MOTOR_SPEED);
+      }
+      else {
+          OnFwd(OUT_C, MOTOR_SPEED + VARIABLE_SPEED * (-y));
+      }
+      
+      if (c == 2 || c == 3) {
+        //do something. output sound to signal a dead man
+        PlayToneEx(300, 400, 2, false);
       }
     }
+    Off(OUT_AC);
+
+    // pull forward a bit
+    RotateMotor(OUT_AC, 75, BASE_ANGLE / 2);
+    Off(OUT_AC);
 
     // turn right 90 degrees
-    
+    RotateMotor(OUT_A, 75, BASE_ANGLE);
+    Off(OUT_A);
+
     // forward until US
+     while (SensorUS(S2) > 10) {
+       OnFwd(OUT_AC, 75);
+     }
+     Off(OUT_AC);
     
     // left 90 degrees
-    
+    RotateMotor(OUT_C, 75, BASE_ANGLE);
+    Off(OUT_C);
+
     // forward until US, record distance
-    
+
     // backward same distance
-    
+
     // turn left 90 degrees
+    RotateMotor(OUT_C, 75, BASE_ANGLE);
+    Off(OUT_C);
 
     // forward 3 inches, right 90 degrees sense wall (exit if wall), left 90 degrees, repeat
-    
+
     // (forward until US, right 90 degrees) x 3
-    
+    for (int i = 0; i < 3; i ++) {
+      while (SensorUS(S2) > 10) {
+        OnFwd(OUT_AC, 75);
+      }
+      Off(OUT_AC);
+      RotateMotor(OUT_A, 75, BASE_ANGLE);
+      Off(OUT_A);
+    }
+
+
     // forward until US, left 90 degrees
+    while (SensorUS(S2) > 10) {
+      OnFwd(OUT_AC, 75);
+    }
+    Off(OUT_AC);
+    RotateMotor(OUT_C, 75, BASE_ANGLE);
     
     // (forward until US, right 90 degrees) x 2
-    
+
 
 
 }
