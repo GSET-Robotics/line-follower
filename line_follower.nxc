@@ -1,35 +1,21 @@
  #define MOTOR_SPEED 25
  #define VARIABLE_SPEED 50
- #define BASE_ANGLE 325
+ #define BASE_ANGLE 305
+ unsigned int black, white, y, range, value;
 
- task main() {
-    // define variables
-    unsigned int black, white, x, c;
-    float range, value;
-    float y;
+ void calibrateColor(bool color) {
+   if (color) {
+      white = SensorRaw(S3);
+   }
+   else {
+     black = SensorRaw(S3);
+   }
+ }
 
-    // set up sensors
-    SetSensorLight(S3);
-    SetSensorUltrasonic(S2);
-    SetSensorType(S1, SENSOR_TYPE_LOWSPEED);
+ void lineFollow(unsigned int x) {
 
-    // calibrate white and black colors
-    black = SensorRaw(S3);
-    RotateMotorEx(OUT_AC, 100, BASE_ANGLE, 100, true, true);
-    Wait(30);
-    white = SensorRaw(S3);
-    RotateMotorEx
-    (OUT_AC, 100, BASE_ANGLE, -100, true, true);
-
-    // TextOut(0, LCD_LINE1, NumToStr(black));
+    //NumOut(0, LCD_LINE1, x);
     // TextOut(0, LCD_LINE2, NumToStr(white));
-
-    Wait(30);
-
-   while (c != 7 && c != 8 && c != 9) {
-      // get x between 0 and 1 in white to black range
-      x = SensorRaw(S3);
-      c = SensorHTColorNum(S1);
 
       value = x - white;
       range = black - white;
@@ -47,33 +33,28 @@
       else {
           OnFwd(OUT_C, MOTOR_SPEED + VARIABLE_SPEED * (-y));
       }
-      
-      if (c == 2 || c == 3) {
-        //do something. output sound to signal a dead man
-        PlayToneEx(300, 400, 2, false);
-      }
-    }
-    
-    Off(OUT_AC);
-    ClearScreen();
+}
+
+
+void runHouse() {
     int room = 1;
-    
+
     // pull forward a bit
     while (SensorUS(S2) > 12) {
        OnFwd(OUT_AC, 40);
     }
     Off(OUT_AC);
-    
+
     // turn right 90 degrees
     RotateMotorEx(OUT_AC, 40, BASE_ANGLE, -100, true, true);
     Off(OUT_AC);
 
-    // forward until US
+   /* // forward until US
     while (SensorUS(S2) > 12) {
       OnFwd(OUT_AC, 40);
     }
     Off(OUT_AC);
-    
+
     // left 90 degrees
     RotateMotorEx(OUT_AC, 40, BASE_ANGLE, 100, true, true);
     Off(OUT_AC);
@@ -90,13 +71,13 @@
     while (SensorUS(S2) > 10) {
       OnFwd(OUT_AC, 40);
     }
-    
+
     // turn left/right 90 degrees depending on last step
     RotateMotor(OUT_A, 40, BASE_ANGLE);
     Off(OUT_C);
 
     // forward 3 inches, right 90 degrees sense wall (exit if wall), left 90 degrees, repeat
-    
+
     while(SensorUS(S2) > 10) {
       OnFwd(OUT_AC, 75);
       Wait(1000);
@@ -105,8 +86,35 @@
       if (SensorUS(S2) > 40) break;
       RotateMotor(OUT_A, -75, BASE_ANGLE);
     }
+    */
 
+    // backwards until entrance
+    while (SensorUS(S2) < 67) {
+      OnFwd(OUT_AC, -40);
+    }
+    Off(OUT_AC);
+    
+    room = 2;
+
+    //turn left
+    RotateMotorEx(OUT_AC, 40, BASE_ANGLE, 100, true, true);
+    Off(OUT_AC);
+    
+    // forward till US
+    while (SensorUS(S2) > 12) {
+      OnFwd(OUT_AC, 40);
+    }
+    
+    // back out of room
+    while (SensorUS(S2) < 47) {
+      OnFwd(OUT_AC, -40);
+    }
+
+
+
+   /*
     // (forward until US, right 90 degrees) x 3
+
     for (int i = 0; i < 3; i ++) {
       while (SensorUS(S2) > 10) {
         OnFwd(OUT_AC, 75);
@@ -123,7 +131,7 @@
     }
     Off(OUT_AC);
     RotateMotor(OUT_C, 75, BASE_ANGLE);
-    
+
     // (forward until US, right 90 degrees) x 2
     for (int i = 0; i < 2; i ++) {
       while (SensorUS(S2) > 10) {
@@ -133,6 +141,53 @@
       RotateMotor(OUT_A, 75, BASE_ANGLE);
       Off(OUT_A);
     }
-
-
+    */
 }
+
+task main() {
+  SetSensorLight(S3);
+  SetSensorUltrasonic(S2);
+  SetSensorType(S1, SENSOR_TYPE_LOWSPEED);
+  SetSensorLowspeed(S4);
+  Wait(30);
+  
+  
+  calibrateColor(false);
+  RotateMotor(OUT_C, 75, BASE_ANGLE);
+  Wait(30);
+  calibrateColor(true);
+  RotateMotor(OUT_C, -75, BASE_ANGLE);
+  Wait(30);
+  
+  
+  int c = 0;
+  unsigned long prevTick;
+  bool prevOnBody = false;
+  int count = 0;
+  
+    while (c != 7 && c != 8 && c != 9) {
+    unsigned long tick = CurrentTick();
+    c = SensorHTColorNum(S1);
+    NumOut(0, LCD_LINE1, c);
+    bool onBody = (c == 3 || c == 2);
+    if (((count == 0) || (tick = prevTick > 2000)) && onBody && !prevOnBody) {
+       //PlayToneEx(300, 2000, 10, false);
+       prevTick = tick;
+       count++;
+    }
+    
+    prevOnBody = onBody;
+    unsigned int x = SensorRaw(S3);
+    lineFollow(x);
+  }
+
+  Off(OUT_AC);
+  ClearScreen();
+
+  runHouse();
+  TextOut(0, 0, "YAY!");
+  PlayToneEx(300, 2000, 10, false);
+
+  Wait(5000);
+}
+

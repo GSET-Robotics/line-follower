@@ -1,223 +1,233 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__constValf0P9	10	0	0	4	1
-1	__rotate_angle2	6	1	4	4	5
-2	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	8	4	2
-3	__signed_stack_001main	6	1	12	4	42
-4	__rotate_theAngle0	5	1	16	4	2
-5	__signed_stack_004main	6	1	20	4	8
-6	__signed_stack_002main	6	1	24	4	14
-7	__signed_stack_003main	6	1	28	4	10
-8	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	32	4	3
-9	__D0main	6	1	36	4	80
-10	__rotate_angle4	6	1	40	4	7
-11	__rotate_theAngle2	5	1	44	4	2
-12	__SPTArgsMutex	9	0	48	4	2
-13	__DU0SetSensorLight_inline_main	5	1	52	4	2
-14	__RLSBmutex1	9	0	56	4	10
-15	__DF0main	10	1	60	4	28
-16	__D0SetSensorLight_inline_main	6	1	64	4	3
-17	__main_7qG2_value_7qG2_000	10	1	68	4	2
-18	__main_7qG2_y_7qG2_000	10	1	72	4	7
-19	__CLSRMutex0	9	0	76	4	2
-20	__main_7qG2_range_7qG2_000	10	1	80	4	2
-21	__CLSWMutex0	9	0	84	4	2
-22	__constValNegf0P9	10	0	88	4	1
-23	__CLSCSMutex0	9	0	92	4	2
-24	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	96	4	4
-25	__rotate_angle0	6	1	100	4	6
-26	__CLSCSMutex1	9	0	104	4	2
-27	__unsigned_stack_002main	5	1	108	4	6
-28	__float_stack_001main	10	1	112	4	10
-29	__rotate_theAngle4	5	1	116	4	2
-30	__unsigned_stack_001main	5	1	120	4	4
-31	__CLSWMutex1	9	0	124	4	2
-32	__CLSRMutex1	9	0	128	4	2
-33	__RLSBmutex0	9	0	132	4	2
-34	__constVal200	4	0	136	2	2
-35	__rotate_RotCount4	4	1	138	2	4
-36	__rotate_OldRotCount4	4	1	140	2	2
-37	__rotate_RotCount2	4	1	142	2	4
-38	__main_7qG2_black_7qG2_000	3	1	144	2	2
-39	__rotate_OldRotCount0	4	1	146	2	2
-40	__rotate_RotCount0	4	1	148	2	4
-41	__main_7qG2_white_7qG2_000	3	1	150	2	3
-42	__main_7qG2_i_7qG2_001	4	1	152	2	8
-43	__main_7qG2_c_7qG2_000	3	1	154	2	6
-44	__main_7qG2_x_7qG2_000	3	1	156	2	2
-45	__rotate_OldRotCount2	4	1	158	2	2
-46	__zfmain	1	1	160	1	45
-47	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	161	1	2
-48	__constValNeg100	2	0	162	1	2
-49	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	163	1	2
-50	____ReadLSBytes0_return	1	1	164	1	3
-51	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	165	1	2
-52	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	166	1	2
-53	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	167	1	2
-54	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	168	1	4
-55	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	169	1	2
-56	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	170	1	2
-57	__constVal96	2	0	171	1	22
-58	__PFTmp	1	1	172	1	1
-59	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	173	1	2
-60	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	174	1	2
-61	____ReadLSBytes1_return	1	1	175	1	7
-62	__zfSetSensorLight_inline_main	1	1	176	1	2
-63	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	177	1	4
-64	__constVal15	2	0	178	1	12
-65	__RLSBytesCount1	1	1	179	1	11
-66	__RLSBIterations1	1	1	180	1	4
-67	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	181	1	2
-68	__RLSBResult1	2	1	182	1	7
-69	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	183	1	2
-70	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	184	1	2
-71	____initialize_global_data_return	1	1	185	1	3
-72	__constVal2	2	0	186	1	7
-73	__RLSBytesCount0	1	1	187	1	7
-74	__RLSBIterations0	1	1	188	1	4
-75	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	189	1	2
-76	__RLSBResult0	2	1	190	1	7
-77	__rotate_stop2	1	1	191	1	2
-78	__rotate_turnpct2	2	1	192	1	3
-79	__rotate_theUF2	1	1	193	1	6
-80	__rotate_sync2	1	1	194	1	2
-81	__rotate_theTurnPct0	2	1	195	1	4
-82	__rotate_power2	1	1	196	1	4
-83	__rotate_firstPort2	1	1	197	1	5
-84	__rotate_theOM2	1	1	198	1	7
-85	__rotate_theRVD2	1	1	199	1	2
-86	__rotate_rs2	1	1	200	1	2
-87	__rotate_thePower2	2	1	201	1	4
-88	__rotate_theRVI2	1	1	202	1	2
-89	__rotate_theRM2	1	1	203	1	4
-90	__rotate_theRS2	1	1	204	1	3
-91	__rotate_theRVP2	1	1	205	1	2
-92	__rotate_stop0	1	1	206	1	3
-93	__rotate_turnpct0	2	1	207	1	4
-94	__rotate_theUF0	1	1	208	1	6
-95	__rotate_sync0	1	1	209	1	3
-96	__rotate_power0	1	1	210	1	5
-97	__constVal25	2	0	211	1	1
-98	__rotate_firstPort0	1	1	212	1	5
-99	__rotate_theOM0	1	1	213	1	7
-100	__rotate_theRVD0	1	1	214	1	3
-101	__rotate_rs0	1	1	215	1	2
-102	__rotate_thePower0	2	1	216	1	4
-103	__rotate_theRVI0	1	1	217	1	3
-104	__rotate_theRM0	1	1	218	1	4
-105	__rotate_theRS0	1	1	219	1	3
-106	__rotate_theRVP0	1	1	220	1	3
-107	__rotate_theTurnPct2	2	1	221	1	4
-108	__constVal1	2	0	222	1	19
-109	__constVal0	2	1	223	1	88
-110	__constVal50	2	0	224	1	4
-111	__constVal32	2	0	225	1	63
-112	__rotate_theTurnPct4	2	1	226	1	4
-113	____RotateMotor0_return	1	1	227	1	4
-114	____RotateMotor0_sign_tmp	2	1	228	1	4
-115	____RotateMotor2_return	1	1	229	1	3
-116	__ResetSensorPort	1	1	230	1	4
-117	__ResetSensorTmp	1	1	231	1	2
-118	____ResetSensorSubroutine_return	1	1	232	1	4
-119	__constVal3	2	0	233	1	16
-120	____RotateMotor2_sign_tmp	2	1	234	1	4
-121	____RotateMotor4_return	1	1	235	1	5
-122	____RotateMotor4_sign_tmp	2	1	236	1	4
-123	__rotate_stop4	1	1	237	1	4
-124	__rotate_turnpct4	2	1	238	1	5
-125	__rotate_theUF4	1	1	239	1	6
-126	__rotate_sync4	1	1	240	1	4
-127	__rotate_power4	1	1	241	1	6
-128	__constVal63	2	0	242	1	16
-129	__rotate_firstPort4	1	1	243	1	5
-130	__rotate_theOM4	1	1	244	1	7
-131	__rotate_theRVD4	1	1	245	1	4
-132	__rotate_rs4	1	1	246	1	2
-133	__rotate_thePower4	2	1	247	1	4
-134	__rotate_theRVI4	1	1	248	1	4
-135	__rotate_theRM4	1	1	249	1	4
-136	__rotate_theRS4	1	1	250	1	3
-137	__rotate_theRVP4	1	1	251	1	4
-138	__CLSWArgs1	8	0	4	12	5
-139	__CLSWArgs1.Result	2	1	252	1	5
-140	__CLSWArgs1.Port	1	1	253	1	5
-141	__CLSWArgs1.Buffer	7	0	254	4	5
-142	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
-143	__CLSWArgs1.ReturnLen	1	1	256	1	5
-144	__CLSRArgs1	8	0	4	12	5
-145	__CLSRArgs1.Result	2	1	260	1	5
-146	__CLSRArgs1.Port	1	1	261	1	5
-147	__CLSRArgs1.Buffer	7	0	262	4	5
-148	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
-149	__CLSRArgs1.BufferLen	1	1	264	1	5
-150	__TextOutArgs	8	0	4	16	6
-151	__TextOutArgs.Result	2	1	268	1	6
-152	__TextOutArgs.Location	8	0	2	4	6
-153	__TextOutArgs.Location.X	4	1	272	2	6
-154	__TextOutArgs.Location.Y	4	1	274	2	6
-155	__TextOutArgs.Text	7	0	276	4	6
-156	__TextOutArgs.Text.Text_type	1	0	0	1	0
-157	__TextOutArgs.Options	5	1	280	4	6
-158	__CLSCSArgs1	8	0	3	4	4
-159	__CLSCSArgs1.Result	2	1	284	1	4
-160	__CLSCSArgs1.Port	1	1	285	1	4
-161	__CLSCSArgs1.BytesReady	1	1	286	1	4
-162	__CLSCSArgs0	8	0	3	4	4
-163	__CLSCSArgs0.Result	2	1	288	1	4
-164	__CLSCSArgs0.Port	1	1	289	1	4
-165	__CLSCSArgs0.BytesReady	1	1	290	1	4
-166	__CLSWArgs0	8	0	4	12	5
-167	__CLSWArgs0.Result	2	1	292	1	5
-168	__CLSWArgs0.Port	1	1	293	1	5
-169	__CLSWArgs0.Buffer	7	0	294	4	5
-170	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
-171	__CLSWArgs0.ReturnLen	1	1	296	1	5
-172	__CLSRArgs0	8	0	4	12	5
-173	__CLSRArgs0.Result	2	1	300	1	5
-174	__CLSRArgs0.Port	1	1	301	1	5
-175	__CLSRArgs0.Buffer	7	0	302	4	5
-176	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
-177	__CLSRArgs0.BufferLen	1	1	304	1	5
+0	__rotate_theAngle4	5	1	0	4	2
+1	__CLSRMutex1	9	0	4	4	2
+2	__constValf0P9	10	0	8	4	1
+3	__CLSWMutex1	9	0	12	4	2
+4	__constValNegf0P9	10	0	16	4	1
+5	__float_stack_001lineFollow	10	1	20	4	10
+6	__signed_stack_004lineFollow	6	1	24	4	2
+7	__signed_stack_001lineFollow	6	1	28	4	8
+8	__RLSBmutex0	9	0	32	4	2
+9	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	36	4	2
+10	__signed_stack_003lineFollow	6	1	40	4	2
+11	__signed_stack_002lineFollow	6	1	44	4	4
+12	__Wait_7qG2_ms_7qG2_000_inline_runHouse	5	1	48	4	2
+13	__signed_stack_001main	6	1	52	4	14
+14	__CLSWMutex0	9	0	56	4	2
+15	__signed_stack_001runHouse	6	1	60	4	18
+16	__CLSCSMutex0	9	0	64	4	2
+17	__signed_stack_002main	6	1	68	4	8
+18	__CLSRMutex0	9	0	72	4	2
+19	__signed_stack_003main	6	1	76	4	2
+20	__signed_stack_002runHouse	6	1	80	4	6
+21	range	10	1	84	4	2
+22	value	10	1	88	4	2
+23	__CLSCSMutex1	9	0	92	4	2
+24	__signed_stack_003runHouse	6	1	96	4	6
+25	__signed_stack_004runHouse	6	1	100	4	6
+26	y	10	1	104	4	7
+27	__DF0lineFollow	10	1	108	4	28
+28	__DU0SetSensorLight_inline_main	5	1	112	4	2
+29	__RLSBmutex1	9	0	116	4	12
+30	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	120	4	8
+31	__D0SetSensorLight_inline_main	6	1	124	4	3
+32	__D0runHouse	6	1	128	4	48
+33	__DU0calibrateColor	5	1	132	4	2
+34	__rotate_angle2	6	1	136	4	6
+35	__D0main	6	1	140	4	23
+36	__DU0SetSensorLowspeed_inline_main	5	1	144	4	2
+37	__rotate_angle4	6	1	148	4	7
+38	__rotateMutex2	9	0	152	4	10
+39	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	156	4	3
+40	__SPTArgsMutex	9	0	160	4	2
+41	__D0SetSensorLowspeed_inline_main	6	1	164	4	3
+42	__rotate_theAngle2	5	1	168	4	2
+43	__D0lineFollow	6	1	172	4	2
+44	black	3	1	176	2	2
+45	__constVal200	4	0	178	2	2
+46	white	3	1	180	2	3
+47	__main_7qG2_c_7qG2_000	4	1	182	2	5
+48	__rotate_OldRotCount4	4	1	184	2	2
+49	__main_7qG2_x_7qG2_001	3	1	186	2	2
+50	__runHouse_7qG2_room_7qG2_000	4	1	188	2	3
+51	__rotate_OldRotCount2	4	1	190	2	2
+52	__lineFollow_7qG2_x_7qG2_000	3	1	192	2	2
+53	__rotate_RotCount4	4	1	194	2	4
+54	__rotate_RotCount2	4	1	196	2	4
+55	__zfSetSensorLight_inline_main	1	1	198	1	2
+56	__zfSetSensorLowspeed_inline_main	1	1	199	1	2
+57	__zfSetSensorLowspeed_inline_SetSensorUltrasonic	1	1	200	1	2
+58	__zflineFollow	1	1	201	1	6
+59	__zfmain	1	1	202	1	12
+60	__zfrunHouse	1	1	203	1	18
+61	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	204	1	2
+62	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	205	1	2
+63	__SetSensorType_7qG2_port_7qG2_000_inline_main	1	1	206	1	2
+64	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	207	1	2
+65	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	208	1	4
+66	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	209	1	2
+67	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	210	1	2
+68	__SetSensorType_7qG2_type_7qG2_000_inline_main	1	1	211	1	2
+69	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	212	1	2
+70	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	213	1	2
+71	__constValNeg75	2	0	214	1	1
+72	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	215	1	2
+73	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	216	1	4
+74	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	217	1	2
+75	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	218	1	2
+76	__constVal63	2	0	219	1	18
+77	__constVal25	2	0	220	1	1
+78	__runHouse_return	1	1	221	1	3
+79	__constVal96	2	0	222	1	23
+80	__calibrateColor_7qG2_color_7qG2_000	1	1	223	1	3
+81	__calibrateColor_return	1	1	224	1	4
+82	__lineFollow_return	1	1	225	1	3
+83	__constValNeg40	2	0	226	1	2
+84	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	227	1	2
+85	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	228	1	2
+86	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	229	1	2
+87	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	230	1	2
+88	____initialize_global_data_return	1	1	231	1	3
+89	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	232	1	4
+90	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	233	1	2
+91	__zfcalibrateColor	1	1	234	1	2
+92	__rotate_theRM4	1	1	235	1	4
+93	__rotate_theOM4	1	1	236	1	7
+94	__rotate_theRVP4	1	1	237	1	4
+95	__rotate_theRS4	1	1	238	1	3
+96	__rotate_stop4	1	1	239	1	4
+97	__rotate_sync4	1	1	240	1	4
+98	__rotate_theUF4	1	1	241	1	6
+99	__rotate_turnpct4	2	1	242	1	5
+100	__rotate_theRVI4	1	1	243	1	4
+101	__constVal1	2	0	244	1	16
+102	__constVal32	2	0	245	1	65
+103	__constVal50	2	0	246	1	3
+104	__constVal0	2	1	247	1	84
+105	__rotate_rs4	1	1	248	1	2
+106	__rotate_theRVD4	1	1	249	1	4
+107	__rotate_theTurnPct4	2	1	250	1	4
+108	__rotate_thePower4	2	1	251	1	4
+109	__rotate_theUF2	1	1	252	1	6
+110	__rotate_turnpct2	2	1	253	1	4
+111	__rotate_theRM2	1	1	254	1	4
+112	__rotate_theOM2	1	1	255	1	7
+113	__rotate_firstPort2	1	1	256	1	5
+114	__rotate_power2	1	1	257	1	5
+115	__rotate_stop2	1	1	258	1	3
+116	__rotate_sync2	1	1	259	1	3
+117	__rotate_theRS2	1	1	260	1	3
+118	__rotate_theTurnPct2	2	1	261	1	4
+119	__rotate_thePower2	2	1	262	1	4
+120	__rotate_firstPort4	1	1	263	1	5
+121	__rotate_power4	1	1	264	1	6
+122	__rotate_theRVI2	1	1	265	1	3
+123	__rotate_theRVP2	1	1	266	1	3
+124	__rotate_rs2	1	1	267	1	2
+125	__rotate_theRVD2	1	1	268	1	3
+126	____RotateMotor2_return	1	1	269	1	4
+127	__RLSBIterations1	1	1	270	1	4
+128	__RLSBIterations0	1	1	271	1	4
+129	____ReadLSBytes1_return	1	1	272	1	8
+130	__constVal15	2	0	273	1	14
+131	__RLSBytesCount0	1	1	274	1	7
+132	__constValNeg100	2	0	275	1	1
+133	__RLSBResult0	2	1	276	1	7
+134	__constVal2	2	0	277	1	8
+135	____ReadLSBytes0_return	1	1	278	1	3
+136	__PFTmp	1	1	279	1	1
+137	____RotateMotor4_sign_tmp	2	1	280	1	4
+138	__constVal3	2	0	281	1	18
+139	____RotateMotor2_sign_tmp	2	1	282	1	4
+140	____RotateMotor4_return	1	1	283	1	5
+141	__ResetSensorPort	1	1	284	1	5
+142	__RLSBytesCount1	1	1	285	1	12
+143	__RLSBResult1	2	1	286	1	7
+144	__ResetSensorTmp	1	1	287	1	2
+145	____ResetSensorSubroutine_return	1	1	288	1	5
+146	__CLSRArgs0	8	0	4	12	5
+147	__CLSRArgs0.Result	2	1	292	1	5
+148	__CLSRArgs0.Port	1	1	293	1	5
+149	__CLSRArgs0.Buffer	7	0	294	4	5
+150	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+151	__CLSRArgs0.BufferLen	1	1	296	1	5
+152	__CLSCSArgs1	8	0	3	4	4
+153	__CLSCSArgs1.Result	2	1	300	1	4
+154	__CLSCSArgs1.Port	1	1	301	1	4
+155	__CLSCSArgs1.BytesReady	1	1	302	1	4
+156	__CLSCSArgs0	8	0	3	4	4
+157	__CLSCSArgs0.Result	2	1	304	1	4
+158	__CLSCSArgs0.Port	1	1	305	1	4
+159	__CLSCSArgs0.BytesReady	1	1	306	1	4
+160	__CLSWArgs0	8	0	4	12	5
+161	__CLSWArgs0.Result	2	1	308	1	5
+162	__CLSWArgs0.Port	1	1	309	1	5
+163	__CLSWArgs0.Buffer	7	0	310	4	5
+164	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+165	__CLSWArgs0.ReturnLen	1	1	312	1	5
+166	__CLSWArgs1	8	0	4	12	5
+167	__CLSWArgs1.Result	2	1	316	1	5
+168	__CLSWArgs1.Port	1	1	317	1	5
+169	__CLSWArgs1.Buffer	7	0	318	4	5
+170	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+171	__CLSWArgs1.ReturnLen	1	1	320	1	5
+172	__PointOutArgs	8	0	3	12	4
+173	__PointOutArgs.Result	2	1	324	1	4
+174	__PointOutArgs.Location	8	0	2	4	4
+175	__PointOutArgs.Location.X	4	1	328	2	4
+176	__PointOutArgs.Location.Y	4	1	330	2	4
+177	__PointOutArgs.Options	5	1	332	4	4
 178	__SPTArgs	8	0	5	8	6
-179	__SPTArgs.Result	2	1	308	1	6
-180	__SPTArgs.Frequency	3	1	310	2	6
-181	__SPTArgs.Duration	3	1	312	2	6
-182	__SPTArgs.Loop	1	1	314	1	6
-183	__SPTArgs.Volume	1	1	315	1	6
-184	__PointOutArgs	8	0	3	12	4
-185	__PointOutArgs.Result	2	1	316	1	4
-186	__PointOutArgs.Location	8	0	2	4	4
-187	__PointOutArgs.Location.X	4	1	320	2	4
-188	__PointOutArgs.Location.Y	4	1	322	2	4
-189	__PointOutArgs.Options	5	1	324	4	4
-190	__rotate_ports4	7	0	328	4	8
-191	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
-192	__rotate_ports2	7	0	330	4	6
-193	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
-194	__OUT_AC	7	0	332	4	13
-195	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-196	__rotate_ports0	7	0	334	4	7
-197	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
-198	__RLSLastGoodRead0	7	0	336	4	2
-199	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
-200	__RLSBbufLSWrite1	7	0	338	4	6
-201	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
-202	__RLSReadBuf0	7	0	340	4	8
-203	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
-204	__RLSReadBuf1	7	0	342	4	16
-205	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
-206	__RLSLastGoodRead1	7	0	344	4	2
-207	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+179	__SPTArgs.Result	2	1	336	1	6
+180	__SPTArgs.Frequency	3	1	338	2	6
+181	__SPTArgs.Duration	3	1	340	2	6
+182	__SPTArgs.Loop	1	1	342	1	6
+183	__SPTArgs.Volume	1	1	343	1	6
+184	__CLSRArgs1	8	0	4	12	5
+185	__CLSRArgs1.Result	2	1	344	1	5
+186	__CLSRArgs1.Port	1	1	345	1	5
+187	__CLSRArgs1.Buffer	7	0	346	4	5
+188	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+189	__CLSRArgs1.BufferLen	1	1	348	1	5
+190	__TextOutArgs	8	0	4	16	5
+191	__TextOutArgs.Result	2	1	352	1	5
+192	__TextOutArgs.Location	8	0	2	4	5
+193	__TextOutArgs.Location.X	4	1	356	2	5
+194	__TextOutArgs.Location.Y	4	1	358	2	5
+195	__TextOutArgs.Text	7	0	360	4	5
+196	__TextOutArgs.Text.Text_type	1	0	0	1	0
+197	__TextOutArgs.Options	5	1	364	4	5
+198	__constStr0009	7	0	368	4	1
+199	__constStr0009.__constStr0009_type	1	1	0	1	0
+200	__OUT_AC	7	0	370	4	17
+201	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+202	__rotate_ports2	7	0	372	4	7
+203	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+204	__rotate_ports4	7	0	374	4	8
+205	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
+206	__RLSLastGoodRead0	7	0	376	4	2
+207	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+208	__RLSBbufLSWrite1	7	0	378	4	7
+209	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+210	__RLSReadBuf0	7	0	380	4	8
+211	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+212	__RLSReadBuf1	7	0	382	4	18
+213	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+214	__strbufmain	7	0	384	4	2
+215	__strbufmain.__strbufmain_type	1	0	0	1	0
+216	__RLSLastGoodRead1	7	0	386	4	2
+217	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	6	0	#line 6 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	7	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	6	2	#line 6 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	11	2	#line 11 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	12	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
-0	11	5	#line 11 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	12	5	#line 12 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	13	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	162	0	#line 162 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	163	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	162	2	#line 162 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	162	2	#line 162 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	163	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	162	5	#line 162 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	163	5	#line 163 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	164	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	7	#line 3729 "NXCDefs.h"
 0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3729	9	#line 3729 "NXCDefs.h"
@@ -255,973 +265,1006 @@ Clump	Line	PC	Source
 0	3695	40	#pragma macro 4
 0	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4433	44	#line 4433 "NXCDefs.h"
-0	3694	44	#line 3694 "NXCDefs.h"
-0	3732	44	#line 3732 "NXCDefs.h"
-0	12	44	#line 12 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	12	44	#line 12 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	12	44	#line 12 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	3768	44	#line 3768 "NXCDefs.h"
-0	3769	44		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
-0	3768	46	#line 3768 "NXCDefs.h"
-0	3768	46	#line 3768 "NXCDefs.h"
-0	3769	46		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
-0	3758	48	#line 3758 "NXCDefs.h"
-0	3759	48		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
-0	3758	50	#line 3758 "NXCDefs.h"
-0	3758	50	#line 3758 "NXCDefs.h"
-0	3759	50		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
-0	3758	52	#line 3758 "NXCDefs.h"
-0	3759	52		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
-0	3758	55	#line 3758 "NXCDefs.h"
-0	3759	55		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
-0	3758	58	#line 3758 "NXCDefs.h"
-0	3759	58		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
-0	3758	61	#line 3758 "NXCDefs.h"
-0	3759	61		jmp __001__001__NXC_Label_37
-0	3758	63	#line 3758 "NXCDefs.h"
-0	3759	63		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
-0	3758	66	#line 3758 "NXCDefs.h"
-0	3759	66		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
-0	3663	68	#line 3663 "NXCDefs.h"
-0	3664	68		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
-0	3663	72	#line 3663 "NXCDefs.h"
-0	3759	72	#line 3759 "NXCDefs.h"
-0	3759	72	#line 3759 "NXCDefs.h"
-0	3760	72		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
-0	3759	74	#line 3759 "NXCDefs.h"
-0	3759	74	#line 3759 "NXCDefs.h"
-0	3760	74		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
-0	3759	77	#line 3759 "NXCDefs.h"
-0	3676	77	#line 3676 "NXCDefs.h"
-0	3677	77		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
-0	3676	81	#line 3676 "NXCDefs.h"
-0	3760	81	#line 3760 "NXCDefs.h"
-0	3760	81	#line 3760 "NXCDefs.h"
-0	3760	81	#line 3760 "NXCDefs.h"
-0	3694	81	#line 3694 "NXCDefs.h"
-0	3695	81	#pragma macro 4
-0	3695	81		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
-0	3695	83		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4538	85	#line 4538 "NXCDefs.h"
-0	3694	85	#line 3694 "NXCDefs.h"
-0	3761	85	#line 3761 "NXCDefs.h"
-0	3768	85	#line 3768 "NXCDefs.h"
-0	13	85	#line 13 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	13	85	#line 13 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	14	85		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
-0	13	88	#line 13 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	13	88	#line 13 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	14	88		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 10
-0	13	91	#line 13 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	3663	91	#line 3663 "NXCDefs.h"
-0	3664	91		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
-0	3663	95	#line 3663 "NXCDefs.h"
-0	16	95	#line 16 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	17	95	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	18	95		getin __main_7qG2_black_7qG2_000, __constVal2, 2
-0	17	99	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	17	99	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	17	99	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	18	99		set __signed_stack_001main, 100
-0	17	102	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	17	102	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	18	102		set __signed_stack_002main, 325
-0	17	105	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	17	105	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	18	105		set __signed_stack_003main, 100
-0	17	108	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	17	108	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	18	108		set __signed_stack_004main, 1
-0	17	111	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	17	111	#line 17 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	18	111		set __D0main, 1
-0	18	114	#line 18 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	19	114	#pragma macro 35
-0	19	114		mov __rotate_ports4, __OUT_AC
-0	19	116		mov __rotate_power4, __signed_stack_001main
-0	19	118		mov __rotate_angle4, __signed_stack_002main
-0	19	120		mov __rotate_turnpct4, __signed_stack_003main
-0	19	122		mov __rotate_sync4, __signed_stack_004main
-0	19	124		mov __rotate_stop4, __D0main
-0	19	126		mov __rotate_theRVP4, __constVal32
-0	19	128		mov __rotate_theRVI4, __constVal0
-0	19	130		mov __rotate_theRVD4, __constVal96
-0	19	132		subcall __RotateMotor4, ____RotateMotor4_return
-0	4603	134	#line 4603 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	18	134	#line 18 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	18	134	#line 18 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	19	134		set __Wait_7qG2_ms_7qG2_000_inline_main, 30
-0	18	137	#line 18 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	7921	137	#line 7921 "NXCDefs.h"
-0	7922	137		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	140	#line 7921 "NXCDefs.h"
-0	19	140	#line 19 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	20	140	#line 20 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	21	140		getin __main_7qG2_white_7qG2_000, __constVal2, 2
-0	20	144	#line 20 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	20	144	#line 20 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	21	144	#line 21 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	22	144		set __signed_stack_001main, 100
-0	21	147	#line 21 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	21	147	#line 21 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	22	147		set __signed_stack_002main, 325
-0	21	150	#line 21 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	21	150	#line 21 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	22	150		mov __signed_stack_003main, __constValNeg100
-0	21	152	#line 21 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	21	152	#line 21 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	22	152		set __signed_stack_004main, 1
-0	21	155	#line 21 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	21	155	#line 21 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	22	155		set __D0main, 1
-0	26	158	#line 26 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	27	158	#pragma macro 35
-0	27	158		mov __rotate_ports4, __OUT_AC
-0	27	160		mov __rotate_power4, __signed_stack_001main
-0	27	162		mov __rotate_angle4, __signed_stack_002main
-0	27	164		mov __rotate_turnpct4, __signed_stack_003main
-0	27	166		mov __rotate_sync4, __signed_stack_004main
-0	27	168		mov __rotate_stop4, __D0main
-0	27	170		mov __rotate_theRVP4, __constVal32
-0	27	172		mov __rotate_theRVI4, __constVal0
-0	27	174		mov __rotate_theRVD4, __constVal96
-0	27	176		subcall __RotateMotor4, ____RotateMotor4_return
-0	4655	178	#line 4655 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	26	178	#line 26 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	26	178	#line 26 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	27	178		set __Wait_7qG2_ms_7qG2_000_inline_main, 30
-0	26	181	#line 26 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	7921	181	#line 7921 "NXCDefs.h"
-0	7922	181		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	5255	45	#line 5255 "NXCDefs.h"
+0	3694	45	#line 3694 "NXCDefs.h"
+0	3732	45	#line 3732 "NXCDefs.h"
+0	163	45	#line 163 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	163	45	#line 163 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	163	45	#line 163 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	3768	45	#line 3768 "NXCDefs.h"
+0	3769	45		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3768	47	#line 3768 "NXCDefs.h"
+0	3768	47	#line 3768 "NXCDefs.h"
+0	3769	47		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	3758	49	#line 3758 "NXCDefs.h"
+0	3759	49		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	51	#line 3758 "NXCDefs.h"
+0	3758	51	#line 3758 "NXCDefs.h"
+0	3759	51		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3758	53	#line 3758 "NXCDefs.h"
+0	3759	53		tst 5, __zfSetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	56	#line 3758 "NXCDefs.h"
+0	3759	56		brtst 4, __001__001__NXC_Label_36, __zfSetSensorLowspeed_inline_SetSensorUltrasonic
+0	3758	59	#line 3758 "NXCDefs.h"
+0	3759	59		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	3758	62	#line 3758 "NXCDefs.h"
+0	3759	62		jmp __001__001__NXC_Label_37
+0	3758	64	#line 3758 "NXCDefs.h"
+0	3759	64		set __D0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	3758	67	#line 3758 "NXCDefs.h"
+0	3759	67		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	3663	69	#line 3663 "NXCDefs.h"
+0	3664	69		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3663	73	#line 3663 "NXCDefs.h"
+0	3759	73	#line 3759 "NXCDefs.h"
+0	3759	73	#line 3759 "NXCDefs.h"
+0	3760	73		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3759	75	#line 3759 "NXCDefs.h"
+0	3759	75	#line 3759 "NXCDefs.h"
+0	3760	75		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	3759	78	#line 3759 "NXCDefs.h"
+0	3676	78	#line 3676 "NXCDefs.h"
+0	3677	78		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	3676	82	#line 3676 "NXCDefs.h"
+0	3760	82	#line 3760 "NXCDefs.h"
+0	3760	82	#line 3760 "NXCDefs.h"
+0	3760	82	#line 3760 "NXCDefs.h"
+0	3694	82	#line 3694 "NXCDefs.h"
+0	3695	82	#pragma macro 4
+0	3695	82		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	3695	84		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5360	87	#line 5360 "NXCDefs.h"
+0	3694	87	#line 3694 "NXCDefs.h"
+0	3761	87	#line 3761 "NXCDefs.h"
+0	3768	87	#line 3768 "NXCDefs.h"
+0	164	87	#line 164 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	164	87	#line 164 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	165	87		set __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	164	90	#line 164 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	164	90	#line 164 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	165	90		set __SetSensorType_7qG2_type_7qG2_000_inline_main, 10
+0	164	93	#line 164 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	3663	93	#line 3663 "NXCDefs.h"
+0	3664	93		setin __SetSensorType_7qG2_type_7qG2_000_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_main, 0
+0	3663	97	#line 3663 "NXCDefs.h"
+0	165	97	#line 165 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	165	97	#line 165 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	166	97		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	165	100	#line 165 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	166	100	#line 166 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	167	100		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	102	#line 3758 "NXCDefs.h"
+0	3759	102		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	104	#line 3758 "NXCDefs.h"
+0	3758	104	#line 3758 "NXCDefs.h"
+0	3759	104		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	106	#line 3758 "NXCDefs.h"
+0	3759	106		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	109	#line 3758 "NXCDefs.h"
+0	3759	109		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	112	#line 3758 "NXCDefs.h"
+0	3759	112		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	115	#line 3758 "NXCDefs.h"
+0	3759	115		jmp __004__NXC_Label_37
+0	3758	117	#line 3758 "NXCDefs.h"
+0	3759	117		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	120	#line 3758 "NXCDefs.h"
+0	3759	120		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	122	#line 3663 "NXCDefs.h"
+0	3664	122		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	126	#line 3663 "NXCDefs.h"
+0	3759	126	#line 3759 "NXCDefs.h"
+0	3759	126	#line 3759 "NXCDefs.h"
+0	3760	126		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	128	#line 3759 "NXCDefs.h"
+0	3759	128	#line 3759 "NXCDefs.h"
+0	3760	128		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	131	#line 3759 "NXCDefs.h"
+0	3676	131	#line 3676 "NXCDefs.h"
+0	3677	131		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	135	#line 3676 "NXCDefs.h"
+0	3760	135	#line 3760 "NXCDefs.h"
+0	3760	135	#line 3760 "NXCDefs.h"
+0	3760	135	#line 3760 "NXCDefs.h"
+0	3694	135	#line 3694 "NXCDefs.h"
+0	3695	135	#pragma macro 4
+0	3695	135		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	137		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5480	140	#line 5480 "NXCDefs.h"
+0	3694	140	#line 3694 "NXCDefs.h"
+0	3761	140	#line 3761 "NXCDefs.h"
+0	166	140	#line 166 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	166	140	#line 166 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	167	140		set __Wait_7qG2_ms_7qG2_000_inline_main, 30
+0	166	143	#line 166 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	7921	143	#line 7921 "NXCDefs.h"
+0	7922	143		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	146	#line 7921 "NXCDefs.h"
+0	169	146	#line 169 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	169	146	#line 169 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	170	146		set __calibrateColor_7qG2_color_7qG2_000, 0
+0	169	149	#line 169 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	170	149	#line 170 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	171	149		subcall calibrateColor, __calibrateColor_return
+0	170	151	#line 170 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	170	151	#line 170 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	171	151		set __signed_stack_001main, 75
+0	170	154	#line 170 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	170	154	#line 170 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	171	154		set __D0main, 305
+0	171	157	#line 171 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	172	157	#pragma macro 33
+0	172	157		acquire __rotateMutex2
+0	172	158		arrbuild __rotate_ports2, __constVal2
+0	172	162		mov __rotate_power2, __signed_stack_001main
+0	172	164		mov __rotate_angle2, __D0main
+0	172	166		mov __rotate_turnpct2, __constVal0
+0	172	168		mov __rotate_sync2, __constVal0
+0	172	170		mov __rotate_stop2, __constVal1
+0	172	172		mov __rotate_theRVP2, __constVal32
+0	172	174		mov __rotate_theRVI2, __constVal0
+0	172	176		mov __rotate_theRVD2, __constVal96
+0	172	178		subcall __RotateMotor2, ____RotateMotor2_return
+0	172	180		release __rotateMutex2
+0	5518	181	#line 5518 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	171	181	#line 171 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	171	181	#line 171 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	172	181		set __Wait_7qG2_ms_7qG2_000_inline_main, 30
+0	171	184	#line 171 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
 0	7921	184	#line 7921 "NXCDefs.h"
-0	28	184	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	28	184	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	184		mov __unsigned_stack_001main, __main_7qG2_c_7qG2_000
-0	28	186	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	28	186	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	186		set __D0main, 7
-0	28	189	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	189		cmp 5, __zfmain, __unsigned_stack_001main, __D0main
-0	28	193	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	193		mov __D0main, __zfmain
-0	28	195	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	195		brtst 4, __NXC_Label_528, __zfmain
-0	28	198	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	198		mov __signed_stack_001main, __D0main
-0	28	200	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	200		mov __unsigned_stack_002main, __main_7qG2_c_7qG2_000
-0	28	202	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	28	202	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	202		set __D0main, 8
-0	28	205	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	205		cmp 5, __zfmain, __unsigned_stack_002main, __D0main
-0	28	209	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	28	209	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	209		and __D0main, __signed_stack_001main, __zfmain
-0	28	213	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	213		tst 5, __zfmain, __D0main
-0	28	216	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	216		mov __D0main, __zfmain
-0	28	218	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	218		brtst 4, __NXC_Label_528, __zfmain
-0	28	221	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	221		mov __signed_stack_001main, __D0main
-0	28	223	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	223		mov __unsigned_stack_002main, __main_7qG2_c_7qG2_000
-0	28	225	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	28	225	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	225		set __D0main, 9
-0	28	228	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	228		cmp 5, __zfmain, __unsigned_stack_002main, __D0main
-0	28	232	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	28	232	#line 28 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	29	232		and __D0main, __signed_stack_001main, __zfmain
-0	30	236	#line 30 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	31	236		tst 5, __zfmain, __D0main
-0	30	239	#line 30 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	31	239		brtst 4, __NXC_Label_526, __zfmain
-0	31	242	#line 31 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	32	242		getin __main_7qG2_x_7qG2_000, __constVal2, 2
-0	31	246	#line 31 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	31	246	#line 31 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	31	246	#line 31 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	32	246	#pragma macro 24
-0	32	246		acquire __RLSBmutex0
-0	32	247		mov __RLSReadBuf0, __RLSBbufLSWrite1
-0	32	249		set __RLSBytesCount0, 1
-0	32	252		subcall __ReadLSBytes0, ____ReadLSBytes0_return
-0	32	254		index __D0main, __RLSReadBuf0, 65535
-0	32	258		release __RLSBmutex0
-0	4728	259	#line 4728 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	31	259	#line 31 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	32	259		mov __main_7qG2_c_7qG2_000, __D0main
-0	31	261	#line 31 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	31	261	#line 31 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	33	261	#line 33 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	33	261	#line 33 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	34	261	#line 34 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	34	261	#line 34 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	261		sub __main_7qG2_value_7qG2_000, __main_7qG2_x_7qG2_000, __main_7qG2_white_7qG2_000
-0	34	265	#line 34 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	34	265	#line 34 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	34	265	#line 34 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	34	265	#line 34 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	265	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	265	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	36	265		sub __main_7qG2_range_7qG2_000, __main_7qG2_black_7qG2_000, __main_7qG2_white_7qG2_000
-0	35	269	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	269	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	269	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	269	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	269	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	269	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	36	269		mul __float_stack_001main, __constVal2, __main_7qG2_value_7qG2_000
-0	35	273	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	273	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	35	273	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	36	273		div __float_stack_001main, __float_stack_001main, __main_7qG2_range_7qG2_000
-0	35	277	#line 35 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	37	277	#line 37 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	37	277	#line 37 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	277		sub __main_7qG2_y_7qG2_000, __float_stack_001main, __constVal1
-0	37	281	#line 37 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	37	281	#line 37 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	37	281	#line 37 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	281		mov __float_stack_001main, __main_7qG2_y_7qG2_000
-0	37	283	#line 37 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	37	283	#line 37 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	283		mov __DF0main, __constValNegf0P9
-0	37	285	#line 37 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	285		cmp 0, __zfmain, __float_stack_001main, __DF0main
-0	37	289	#line 37 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	289		mov __D0main, __zfmain
-0	38	291	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	291		brtst 4, __NXC_Label_543, __zfmain
-0	38	294	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	294		set __signed_stack_001main, 0
-0	38	297	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	297	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	297		set __signed_stack_002main, 1
-0	38	300	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	300	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	300		set __signed_stack_003main, 25
-0	38	303	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	303	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	303		set __signed_stack_004main, 50
-0	38	306	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	306	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	306	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	306	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	38	306	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	306		sub __DF0main, __constVal0, __main_7qG2_y_7qG2_000
-0	38	310	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	310		mul __DF0main, __signed_stack_004main, __DF0main
-0	38	314	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	314		add __DF0main, __signed_stack_003main, __DF0main
-0	38	318	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	318		mul __DF0main, __signed_stack_002main, __DF0main
-0	38	322	#line 38 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	322		sub __DF0main, __signed_stack_001main, __DF0main
-0	39	326	#line 39 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	40	326	#pragma macro 7
-0	40	326		setout __constVal0, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4841	349	#line 4841 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	39	349	#line 39 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	41	349	#line 41 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	42	349		jmp __NXC_Label_550
-0	41	351	#line 41 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	42	351		set __signed_stack_001main, 25
-0	41	354	#line 41 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	41	354	#line 41 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	41	354	#line 41 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	41	354	#line 41 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	41	354	#line 41 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	42	354		mul __DF0main, __constVal50, __main_7qG2_y_7qG2_000
-0	41	358	#line 41 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	42	358		add __DF0main, __signed_stack_001main, __DF0main
-0	42	362	#line 42 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	43	362	#pragma macro 7
-0	43	362		setout __constVal0, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4863	385	#line 4863 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	42	385	#line 42 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	43	385	#line 43 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	43	385	#line 43 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	385		mov __float_stack_001main, __main_7qG2_y_7qG2_000
-0	43	387	#line 43 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	43	387	#line 43 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	387		mov __DF0main, __constValf0P9
-0	43	389	#line 43 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	389		cmp 1, __zfmain, __float_stack_001main, __DF0main
-0	43	393	#line 43 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	393		mov __D0main, __zfmain
-0	44	395	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	45	395		brtst 4, __NXC_Label_555, __zfmain
-0	44	398	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	45	398		set __signed_stack_001main, 50
-0	44	401	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	401	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	401	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	401	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	401	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	45	401		sub __DF0main, __constVal0, __main_7qG2_y_7qG2_000
-0	44	405	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	45	405		mul __float_stack_001main, __signed_stack_001main, __DF0main
-0	44	409	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	409	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	44	409	#line 44 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	45	409		sub __DF0main, __float_stack_001main, __constVal25
-0	45	413	#line 45 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	46	413	#pragma macro 7
-0	46	413		setout __constVal2, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4906	436	#line 4906 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	45	436	#line 45 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	47	436	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	48	436		jmp __NXC_Label_560
-0	47	438	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	48	438		set __signed_stack_001main, 25
-0	47	441	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	47	441	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	48	441		set __signed_stack_002main, 50
-0	47	444	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	47	444	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	47	444	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	47	444	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	47	444	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	48	444		sub __DF0main, __constVal0, __main_7qG2_y_7qG2_000
-0	47	448	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	48	448		mul __DF0main, __signed_stack_002main, __DF0main
-0	47	452	#line 47 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	48	452		add __DF0main, __signed_stack_001main, __DF0main
-0	48	456	#line 48 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	49	456	#pragma macro 7
-0	49	456		setout __constVal2, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4936	479	#line 4936 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	48	479	#line 48 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	50	479	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	50	479	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	479		mov __unsigned_stack_001main, __main_7qG2_c_7qG2_000
-0	50	481	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	50	481	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	481		set __D0main, 2
-0	50	484	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	484		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
-0	50	488	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	488		mov __D0main, __zfmain
-0	50	490	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	490		brtst 5, __NXC_Label_565, __zfmain
-0	50	493	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	493		mov __signed_stack_001main, __D0main
-0	50	495	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	495		mov __unsigned_stack_002main, __main_7qG2_c_7qG2_000
-0	50	497	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	50	497	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	497		set __D0main, 3
-0	50	500	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	500		cmp 4, __zfmain, __unsigned_stack_002main, __D0main
-0	50	504	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	50	504	#line 50 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	51	504		or __D0main, __signed_stack_001main, __zfmain
-0	52	508	#line 52 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	53	508		tst 5, __zfmain, __D0main
-0	52	511	#line 52 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	53	511		brtst 4, __NXC_Label_568, __zfmain
-0	52	514	#line 52 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	53	514		set __signed_stack_001main, 300
-0	52	517	#line 52 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	52	517	#line 52 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	53	517		set __signed_stack_002main, 400
-0	52	520	#line 52 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	52	520	#line 52 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	53	520		set __signed_stack_003main, 2
-0	52	523	#line 52 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	52	523	#line 52 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	53	523		set __D0main, 0
-0	53	526	#line 53 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	54	526		acquire __SPTArgsMutex
-0	53	527	#line 53 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	54	527		mov __SPTArgs.Frequency, __signed_stack_001main
-0	53	530	#line 53 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	54	530		mov __SPTArgs.Duration, __signed_stack_002main
-0	53	533	#line 53 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	54	533		mov __SPTArgs.Volume, __signed_stack_003main
-0	53	536	#line 53 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	54	536		mov __SPTArgs.Loop, __D0main
-0	53	539	#line 53 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	54	539		syscall 10, __SPTArgs
-0	53	542	#line 53 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	54	542		mov __D0main, __SPTArgs.Result
-0	53	545	#line 53 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	54	545		release __SPTArgsMutex
-0	53	546	#line 53 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	56	546	#line 56 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	56	546	#line 56 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	57	546		jmp __NXC_Label_525
-0	56	548	#line 56 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	57	548	#line 57 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	58	548	#pragma macro 7
-0	58	548		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5019	571	#line 5019 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	57	571	#line 57 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	6069	571	#line 6069 "NXCDefs.h"
-0	6070	571	#pragma macro 6
-0	6070	571		mov __PointOutArgs.Location.X, __constVal200
-0	6070	574		mov __PointOutArgs.Location.Y, __constVal200
-0	6070	577		mov __PointOutArgs.Options, __constVal1
-0	6070	579		syscall 14, __PointOutArgs
-0	5022	582	#line 5022 "NXCDefs.h"
-0	6069	582	#line 6069 "NXCDefs.h"
-0	59	582	#line 59 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	59	582	#line 59 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	60	582		set __D0main, 1
-0	60	585	#line 60 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	61	585		tst 5, __zfmain, __D0main
-0	60	588	#line 60 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	61	588		brtst 4, __NXC_Label_578, __zfmain
-0	60	591	#line 60 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	61	591		set __signed_stack_001main, 0
-0	60	594	#line 60 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	60	594	#line 60 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	61	594		set __signed_stack_002main, 0
-0	60	597	#line 60 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	60	597	#line 60 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	61	597	#pragma macro 26
-0	61	597		acquire __RLSBmutex1
-0	61	598		mov __RLSReadBuf1, __RLSBbufLSWrite1
-0	61	600		set __RLSBytesCount1, 1
-0	61	603		wait2 NA, __constVal15
-0	61	606		subcall __ReadLSBytes1, ____ReadLSBytes1_return
-0	61	608		index __D0main, __RLSReadBuf1, 65535
-0	61	612		release __RLSBmutex1
-0	5047	613	#line 5047 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	61	613	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	61	613	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	62	613		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	61	616	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	62	616		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	61	619	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	62	619		set __TextOutArgs.Options, 0
-0	61	622	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	62	622		numtostr __TextOutArgs.Text, __D0main
-0	61	625	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	62	625		syscall 13, __TextOutArgs
-0	61	628	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	62	628		mov __D0main, __TextOutArgs.Result
-0	61	631	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	61	631	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	61	631	#line 61 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	62	631	#line 62 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	63	631		jmp __NXC_Label_577
-0	62	633	#line 62 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	65	633	#line 65 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	65	633	#line 65 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	65	633	#line 65 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	66	633	#pragma macro 26
-0	66	633		acquire __RLSBmutex1
-0	66	634		mov __RLSReadBuf1, __RLSBbufLSWrite1
-0	66	636		set __RLSBytesCount1, 1
-0	66	639		wait2 NA, __constVal15
-0	66	642		subcall __ReadLSBytes1, ____ReadLSBytes1_return
-0	66	644		index __D0main, __RLSReadBuf1, 65535
-0	66	648		release __RLSBmutex1
-0	5084	649	#line 5084 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	65	649	#line 65 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	66	649		mov __signed_stack_001main, __D0main
-0	65	651	#line 65 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	66	651		set __D0main, 12
-0	65	654	#line 65 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	66	654		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	65	658	#line 65 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	66	658		mov __D0main, __zfmain
-0	66	660	#line 66 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	67	660		brtst 4, __NXC_Label_590, __zfmain
-0	66	663	#line 66 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	67	663		set __D0main, 40
-0	67	666	#line 67 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	68	666	#pragma macro 7
-0	68	666		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5102	689	#line 5102 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	67	689	#line 67 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	68	689	#line 68 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	69	689		jmp __NXC_Label_589
-0	68	691	#line 68 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	71	691	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	72	691	#pragma macro 7
-0	72	691		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5109	714	#line 5109 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	71	714	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	71	714	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	72	714		set __signed_stack_001main, 40
-0	71	717	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	71	717	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	72	717		set __signed_stack_002main, 325
-0	71	720	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	71	720	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	72	720		mov __signed_stack_003main, __constValNeg100
-0	71	722	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	71	722	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	72	722		set __signed_stack_004main, 1
-0	71	725	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	71	725	#line 71 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	72	725		set __D0main, 1
-0	72	728	#line 72 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	73	728	#pragma macro 35
-0	73	728		mov __rotate_ports4, __OUT_AC
-0	73	730		mov __rotate_power4, __signed_stack_001main
-0	73	732		mov __rotate_angle4, __signed_stack_002main
-0	73	734		mov __rotate_turnpct4, __signed_stack_003main
-0	73	736		mov __rotate_sync4, __signed_stack_004main
-0	73	738		mov __rotate_stop4, __D0main
-0	73	740		mov __rotate_theRVP4, __constVal32
-0	73	742		mov __rotate_theRVI4, __constVal0
-0	73	744		mov __rotate_theRVD4, __constVal96
-0	73	746		subcall __RotateMotor4, ____RotateMotor4_return
-0	5140	748	#line 5140 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	72	748	#line 72 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	116	748	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	748	#pragma macro 7
-0	117	748		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5143	771	#line 5143 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	116	771	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	116	771	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	771		set __main_7qG2_i_7qG2_001, 0
-0	116	774	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	116	774	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	774		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
-0	116	776	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	116	776	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	776		set __D0main, 3
-0	116	779	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	779		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	116	783	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	783		mov __D0main, __zfmain
-0	116	785	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	785		brtst 4, __NXC_Label_606, __zfmain
-0	116	788	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	788		jmp __NXC_Label_607
-0	116	790	#line 116 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	790		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
-0	117	794	#line 117 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	118	794		jmp __NXC_Label_605
-0	117	796	#line 117 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	118	796	#pragma macro 26
-0	118	796		acquire __RLSBmutex1
-0	118	797		mov __RLSReadBuf1, __RLSBbufLSWrite1
-0	118	799		set __RLSBytesCount1, 1
-0	118	802		wait2 NA, __constVal15
-0	118	805		subcall __ReadLSBytes1, ____ReadLSBytes1_return
-0	118	807		index __D0main, __RLSReadBuf1, 65535
-0	118	811		release __RLSBmutex1
-0	5180	812	#line 5180 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	117	812	#line 117 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	118	812		mov __signed_stack_001main, __D0main
-0	117	814	#line 117 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	118	814		set __D0main, 10
-0	117	817	#line 117 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	118	817		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	117	821	#line 117 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	118	821		mov __D0main, __zfmain
-0	118	823	#line 118 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	119	823		brtst 4, __NXC_Label_614, __zfmain
-0	118	826	#line 118 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	119	826		set __D0main, 75
-0	119	829	#line 119 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	120	829	#pragma macro 7
-0	120	829		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5198	852	#line 5198 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	119	852	#line 119 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	120	852	#line 120 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	121	852		jmp __NXC_Label_613
-0	120	854	#line 120 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	121	854	#line 121 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	122	854	#pragma macro 7
-0	122	854		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5205	877	#line 5205 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	121	877	#line 121 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	121	877	#line 121 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	122	877		set __signed_stack_001main, 75
-0	121	880	#line 121 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	121	880	#line 121 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	122	880		set __D0main, 325
-0	122	883	#line 122 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	123	883	#pragma macro 33
-0	123	883		arrbuild __rotate_ports0, __constVal0
-0	123	887		mov __rotate_power0, __signed_stack_001main
-0	123	889		mov __rotate_angle0, __D0main
-0	123	891		mov __rotate_turnpct0, __constVal0
-0	123	893		mov __rotate_sync0, __constVal0
-0	123	895		mov __rotate_stop0, __constVal1
-0	123	897		mov __rotate_theRVP0, __constVal32
-0	123	899		mov __rotate_theRVI0, __constVal0
-0	123	901		mov __rotate_theRVD0, __constVal96
-0	123	903		subcall __RotateMotor0, ____RotateMotor0_return
-0	5218	905	#line 5218 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	122	905	#line 122 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	123	905	#line 123 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	124	905	#pragma macro 7
-0	124	905		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5221	928	#line 5221 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	123	928	#line 123 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	127	928	#line 127 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	128	928		jmp __NXC_Label_608
-0	127	930	#line 127 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	127	930	#line 127 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	128	930	#pragma macro 26
-0	128	930		acquire __RLSBmutex1
-0	128	931		mov __RLSReadBuf1, __RLSBbufLSWrite1
-0	128	933		set __RLSBytesCount1, 1
-0	128	936		wait2 NA, __constVal15
-0	128	939		subcall __ReadLSBytes1, ____ReadLSBytes1_return
-0	128	941		index __D0main, __RLSReadBuf1, 65535
-0	128	945		release __RLSBmutex1
-0	5229	946	#line 5229 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	127	946	#line 127 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	128	946		mov __signed_stack_001main, __D0main
-0	127	948	#line 127 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	128	948		set __D0main, 10
-0	127	951	#line 127 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	128	951		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	127	955	#line 127 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	128	955		mov __D0main, __zfmain
-0	128	957	#line 128 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	129	957		brtst 4, __NXC_Label_624, __zfmain
-0	128	960	#line 128 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	129	960		set __D0main, 75
-0	129	963	#line 129 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	130	963	#pragma macro 7
-0	130	963		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5247	986	#line 5247 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	129	986	#line 129 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	130	986	#line 130 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	131	986		jmp __NXC_Label_623
-0	130	988	#line 130 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	131	988	#line 131 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	132	988	#pragma macro 7
-0	132	988		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5254	1011	#line 5254 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	131	1011	#line 131 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	131	1011	#line 131 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	132	1011		set __signed_stack_001main, 75
-0	131	1014	#line 131 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	131	1014	#line 131 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	132	1014		set __D0main, 325
-0	134	1017	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1017	#pragma macro 33
-0	135	1017		arrbuild __rotate_ports2, __constVal2
-0	135	1021		mov __rotate_power2, __signed_stack_001main
-0	135	1023		mov __rotate_angle2, __D0main
-0	135	1025		mov __rotate_turnpct2, __constVal0
-0	135	1027		mov __rotate_sync2, __constVal0
-0	135	1029		mov __rotate_stop2, __constVal1
-0	135	1031		mov __rotate_theRVP2, __constVal32
-0	135	1033		mov __rotate_theRVI2, __constVal0
-0	135	1035		mov __rotate_theRVD2, __constVal96
-0	135	1037		subcall __RotateMotor2, ____RotateMotor2_return
-0	5267	1039	#line 5267 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	134	1039	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	134	1039	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1039		set __main_7qG2_i_7qG2_001, 0
-0	134	1042	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	134	1042	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1042		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
-0	134	1044	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	134	1044	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1044		set __D0main, 2
-0	134	1047	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1047		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	134	1051	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1051		mov __D0main, __zfmain
-0	134	1053	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1053		brtst 4, __NXC_Label_634, __zfmain
-0	134	1056	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1056		jmp __NXC_Label_635
-0	134	1058	#line 134 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1058		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
-0	135	1062	#line 135 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	136	1062		jmp __NXC_Label_633
-0	135	1064	#line 135 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	136	1064	#pragma macro 26
-0	136	1064		acquire __RLSBmutex1
-0	136	1065		mov __RLSReadBuf1, __RLSBbufLSWrite1
-0	136	1067		set __RLSBytesCount1, 1
-0	136	1070		wait2 NA, __constVal15
-0	136	1073		subcall __ReadLSBytes1, ____ReadLSBytes1_return
-0	136	1075		index __D0main, __RLSReadBuf1, 65535
-0	136	1079		release __RLSBmutex1
-0	5300	1080	#line 5300 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	135	1080	#line 135 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	136	1080		mov __signed_stack_001main, __D0main
-0	135	1082	#line 135 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	136	1082		set __D0main, 10
-0	135	1085	#line 135 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	136	1085		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	135	1089	#line 135 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	136	1089		mov __D0main, __zfmain
-0	136	1091	#line 136 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	137	1091		brtst 4, __NXC_Label_642, __zfmain
-0	136	1094	#line 136 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	137	1094		set __D0main, 75
-0	137	1097	#line 137 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	138	1097	#pragma macro 7
-0	138	1097		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5318	1120	#line 5318 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	137	1120	#line 137 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	138	1120	#line 138 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	139	1120		jmp __NXC_Label_641
-0	138	1122	#line 138 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	139	1122	#line 139 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	140	1122	#pragma macro 7
-0	140	1122		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5325	1145	#line 5325 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	139	1145	#line 139 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	139	1145	#line 139 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	140	1145		set __signed_stack_001main, 75
-0	139	1148	#line 139 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	139	1148	#line 139 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	140	1148		set __D0main, 325
-0	140	1151	#line 140 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	141	1151	#pragma macro 33
-0	141	1151		arrbuild __rotate_ports0, __constVal0
-0	141	1155		mov __rotate_power0, __signed_stack_001main
-0	141	1157		mov __rotate_angle0, __D0main
-0	141	1159		mov __rotate_turnpct0, __constVal0
-0	141	1161		mov __rotate_sync0, __constVal0
-0	141	1163		mov __rotate_stop0, __constVal1
-0	141	1165		mov __rotate_theRVP0, __constVal32
-0	141	1167		mov __rotate_theRVI0, __constVal0
-0	141	1169		mov __rotate_theRVD0, __constVal96
-0	141	1171		subcall __RotateMotor0, ____RotateMotor0_return
-0	5338	1173	#line 5338 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	140	1173	#line 140 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	141	1173	#line 141 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	142	1173	#pragma macro 7
-0	142	1173		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5341	1196	#line 5341 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	141	1196	#line 141 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	146	1196	#line 146 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	147	1196		jmp __NXC_Label_636
-0	146	1198	#line 146 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-0	147	1198		exit -1, -1
-1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
-1	4477	3		set ____RotateMotor0_sign_tmp, 0
-1	4477	6		brtst EQ, __sign_0, __rotate_angle0
-1	4477	9		set ____RotateMotor0_sign_tmp, -1
-1	4477	12		brtst LT, __sign_0, __rotate_angle0
-1	4477	15		set ____RotateMotor0_sign_tmp, 1
-1	4477	18	__sign_0:	mov __rotate_thePower0, ____RotateMotor0_sign_tmp
-1	4478	20		abs __rotate_theAngle0, __rotate_angle0
-1	4479	23		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
-1	4481	27		set __rotate_theUF0, 23
-1	4482	30		brtst 4, __rotate_NoSync0, __rotate_sync0
-1	4483	33		set __rotate_theOM0, 7
-1	4484	36		set __rotate_theRM0, 2
-1	4485	39		mov __rotate_theTurnPct0, __rotate_turnpct0
-1	4486	41		brtst 4, __rotate_Start0, __rotate_theTurnPct0
-1	4487	44		add __rotate_theUF0, __rotate_theUF0, __constVal32
-1	4488	48		jmp __rotate_Start0
-1	4490	50		set __rotate_theOM0, 3
-1	4491	53		set __rotate_theRM0, 0
-1	4492	56		set __rotate_theTurnPct0, 0
-1	4494	59		set __rotate_theRS0, 32
-1	4495	62		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
-1	4498	85		index __rotate_firstPort0, __rotate_ports0, 65535
-1	4500	89		getout __rotate_power0, __rotate_firstPort0, 2
-1	4501	93		brtst 4, __rotate_doneRunning0, __rotate_power0
-1	4502	96		getout __rotate_rs0, __rotate_firstPort0, 6
-1	4503	100		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
-1	4505	104		brtst 4, __rotate_Reset0, __rotate_stop0
-1	4507	107		set __rotate_theOM0, 7
-1	4508	110		set __rotate_theUF0, 7
-1	4509	113		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
-1	4511	128		getout __rotate_RotCount0, __rotate_firstPort0, 14
-1	4513	132		mov __rotate_OldRotCount0, __rotate_RotCount0
-1	4514	134		wait2 NA, __constVal50
-1	4516	137		getout __rotate_RotCount0, __rotate_firstPort0, 14
-1	4517	141		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
-1	4518	145		set __rotate_theOM0, 4
-1	4519	148		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
-1	4522	159		brtst 4, __rotate_Done0, __rotate_theTurnPct0
-1	4523	162		setout __rotate_ports0, 0, __constVal32
-1	4525	167		subret ____RotateMotor0_return
-2	4582	0		brtst 4, __rotate_Done2, __rotate_angle2
-2	4583	3		set ____RotateMotor2_sign_tmp, 0
-2	4583	6		brtst EQ, __sign_2, __rotate_angle2
-2	4583	9		set ____RotateMotor2_sign_tmp, -1
-2	4583	12		brtst LT, __sign_2, __rotate_angle2
-2	4583	15		set ____RotateMotor2_sign_tmp, 1
-2	4583	18	__sign_2:	mov __rotate_thePower2, ____RotateMotor2_sign_tmp
-2	4584	20		abs __rotate_theAngle2, __rotate_angle2
-2	4585	23		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
-2	4587	27		set __rotate_theUF2, 23
-2	4588	30		brtst 4, __rotate_NoSync2, __rotate_sync2
-2	4589	33		set __rotate_theOM2, 7
-2	4590	36		set __rotate_theRM2, 2
-2	4591	39		mov __rotate_theTurnPct2, __rotate_turnpct2
-2	4592	41		brtst 4, __rotate_Start2, __rotate_theTurnPct2
-2	4593	44		add __rotate_theUF2, __rotate_theUF2, __constVal32
-2	4594	48		jmp __rotate_Start2
-2	4596	50		set __rotate_theOM2, 3
-2	4597	53		set __rotate_theRM2, 0
-2	4598	56		set __rotate_theTurnPct2, 0
-2	4600	59		set __rotate_theRS2, 32
-2	4601	62		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
-2	4604	85		index __rotate_firstPort2, __rotate_ports2, 65535
-2	4606	89		getout __rotate_power2, __rotate_firstPort2, 2
-2	4607	93		brtst 4, __rotate_doneRunning2, __rotate_power2
-2	4608	96		getout __rotate_rs2, __rotate_firstPort2, 6
-2	4609	100		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
-2	4611	104		brtst 4, __rotate_Reset2, __rotate_stop2
-2	4613	107		set __rotate_theOM2, 7
-2	4614	110		set __rotate_theUF2, 7
-2	4615	113		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
-2	4617	128		getout __rotate_RotCount2, __rotate_firstPort2, 14
-2	4619	132		mov __rotate_OldRotCount2, __rotate_RotCount2
-2	4620	134		wait2 NA, __constVal50
-2	4622	137		getout __rotate_RotCount2, __rotate_firstPort2, 14
-2	4623	141		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
-2	4624	145		set __rotate_theOM2, 4
-2	4625	148		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
-2	4628	159		brtst 4, __rotate_Done2, __rotate_theTurnPct2
-2	4629	162		setout __rotate_ports2, 0, __constVal32
-2	4631	167		subret ____RotateMotor2_return
-3	4688	0		brtst 4, __rotate_Done4, __rotate_angle4
-3	4689	3		set ____RotateMotor4_sign_tmp, 0
-3	4689	6		brtst EQ, __sign_4, __rotate_angle4
-3	4689	9		set ____RotateMotor4_sign_tmp, -1
-3	4689	12		brtst LT, __sign_4, __rotate_angle4
-3	4689	15		set ____RotateMotor4_sign_tmp, 1
-3	4689	18	__sign_4:	mov __rotate_thePower4, ____RotateMotor4_sign_tmp
-3	4690	20		abs __rotate_theAngle4, __rotate_angle4
-3	4691	23		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
-3	4693	27		set __rotate_theUF4, 23
-3	4694	30		brtst 4, __rotate_NoSync4, __rotate_sync4
-3	4695	33		set __rotate_theOM4, 7
-3	4696	36		set __rotate_theRM4, 2
-3	4697	39		mov __rotate_theTurnPct4, __rotate_turnpct4
-3	4698	41		brtst 4, __rotate_Start4, __rotate_theTurnPct4
-3	4699	44		add __rotate_theUF4, __rotate_theUF4, __constVal32
-3	4700	48		jmp __rotate_Start4
-3	4702	50		set __rotate_theOM4, 3
-3	4703	53		set __rotate_theRM4, 0
-3	4704	56		set __rotate_theTurnPct4, 0
-3	4706	59		set __rotate_theRS4, 32
-3	4707	62		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
-3	4710	85		index __rotate_firstPort4, __rotate_ports4, 65535
-3	4712	89		getout __rotate_power4, __rotate_firstPort4, 2
-3	4713	93		brtst 4, __rotate_doneRunning4, __rotate_power4
-3	4714	96		getout __rotate_rs4, __rotate_firstPort4, 6
-3	4715	100		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
-3	4717	104		brtst 4, __rotate_Reset4, __rotate_stop4
-3	4719	107		set __rotate_theOM4, 7
-3	4720	110		set __rotate_theUF4, 7
-3	4721	113		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
-3	4723	128		getout __rotate_RotCount4, __rotate_firstPort4, 14
-3	4725	132		mov __rotate_OldRotCount4, __rotate_RotCount4
-3	4726	134		wait2 NA, __constVal50
-3	4728	137		getout __rotate_RotCount4, __rotate_firstPort4, 14
-3	4729	141		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
-3	4730	145		set __rotate_theOM4, 4
-3	4731	148		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
-3	4734	159		brtst 4, __rotate_Done4, __rotate_theTurnPct4
-3	4735	162		setout __rotate_ports4, 0, __constVal32
-3	4737	167		subret ____RotateMotor4_return
-4	4885	0		setin __constVal1, __ResetSensorPort, 5
-4	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-4	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-4	4889	11		subret ____ResetSensorSubroutine_return
-5	5672	0	#pragma macro 25
-5	5672	0		acquire __CLSWMutex0
-5	5672	1		set __CLSWArgs0.Port, 0
-5	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
-5	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
-5	5672	8		syscall 21, __CLSWArgs0
-5	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
-5	5672	13		release __CLSWMutex0
-5	5673	14	#line 5673 "NXTDefs.h"
-5	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
-5	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
-5	5676	21		brtst 5, __RLSBError0, __RLSBResult0
-5	5677	24		set __RLSBIterations0, 4
-5	5679	27	#pragma macro 23
-5	5679	27		acquire __CLSCSMutex0
-5	5679	28		set __CLSCSArgs0.Port, 0
-5	5679	31		syscall 23, __CLSCSArgs0
-5	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
-5	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
-5	5679	38		release __CLSCSMutex0
-5	5679	39	#line 5679 "NXTDefs.h"
-5	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
-5	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
-5	5682	46		brtst 0, __RLSBError0, __RLSBResult0
-5	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
-5	5685	52		wait2 NA, __constVal15
-5	5686	55		jmp __RLSBDoCheckStatus0
-5	5689	57	#pragma macro 25
-5	5689	57		acquire __CLSRMutex0
-5	5689	58		set __CLSRArgs0.Port, 0
-5	5689	61		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
-5	5689	63		syscall 22, __CLSRArgs0
-5	5689	66		mov __RLSReadBuf0, __CLSRArgs0.Buffer
-5	5689	68		mov __RLSBResult0, __CLSRArgs0.Result
-5	5689	70		release __CLSRMutex0
-5	5689	71	#line 5689 "NXTDefs.h"
-5	5690	71		brtst 5, __RLSBError0, __RLSBResult0
-5	5691	74		mov __RLSLastGoodRead0, __RLSReadBuf0
-5	5692	76		jmp __RLSBDone0
-5	5694	78		mov __RLSReadBuf0, __RLSLastGoodRead0
-5	5696	80		arrsize __RLSBytesCount0, __RLSReadBuf0
-5	5698	83		subret ____ReadLSBytes0_return
-6	5710	0	#pragma macro 25
-6	5710	0		acquire __CLSWMutex1
-6	5710	1		set __CLSWArgs1.Port, 1
-6	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
-6	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
-6	5710	8		syscall 21, __CLSWArgs1
-6	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
-6	5710	13		release __CLSWMutex1
-6	5710	14	#line 5710 "NXTDefs.h"
-6	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
-6	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
-6	5713	21		brtst 5, __RLSBError1, __RLSBResult1
-6	5714	24		set __RLSBIterations1, 4
-6	5716	27	#pragma macro 23
-6	5716	27		acquire __CLSCSMutex1
-6	5716	28		set __CLSCSArgs1.Port, 1
-6	5716	31		syscall 23, __CLSCSArgs1
-6	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
-6	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
-6	5716	38		release __CLSCSMutex1
-6	5716	39	#line 5716 "NXTDefs.h"
-6	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
-6	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
-6	5719	46		brtst 0, __RLSBError1, __RLSBResult1
-6	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
-6	5722	52		wait2 NA, __constVal15
-6	5723	55		jmp __RLSBDoCheckStatus1
-6	5726	57	#pragma macro 25
-6	5726	57		acquire __CLSRMutex1
-6	5726	58		set __CLSRArgs1.Port, 1
-6	5726	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
-6	5726	63		syscall 22, __CLSRArgs1
-6	5726	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
-6	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
-6	5726	70		release __CLSRMutex1
-6	5726	71	#line 5726 "NXTDefs.h"
-6	5727	71		brtst 5, __RLSBError1, __RLSBResult1
-6	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
-6	5729	76		jmp __RLSBDone1
-6	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
-6	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
-6	5735	83		subret ____ReadLSBytes1_return
-7	147	0	#line 147 "C:\Users\navin\GSET\line-follower\line_follower.nxc"
-7	148	0		subret ____initialize_global_data_return
+0	7922	184		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	187	#line 7921 "NXCDefs.h"
+0	172	187	#line 172 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	172	187	#line 172 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	173	187		set __calibrateColor_7qG2_color_7qG2_000, 1
+0	172	190	#line 172 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	173	190	#line 173 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	174	190		subcall calibrateColor, __calibrateColor_return
+0	173	192	#line 173 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	173	192	#line 173 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	174	192		mov __signed_stack_001main, __constValNeg75
+0	173	194	#line 173 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	173	194	#line 173 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	174	194		set __D0main, 305
+0	174	197	#line 174 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	175	197	#pragma macro 33
+0	175	197		acquire __rotateMutex2
+0	175	198		arrbuild __rotate_ports2, __constVal2
+0	175	202		mov __rotate_power2, __signed_stack_001main
+0	175	204		mov __rotate_angle2, __D0main
+0	175	206		mov __rotate_turnpct2, __constVal0
+0	175	208		mov __rotate_sync2, __constVal0
+0	175	210		mov __rotate_stop2, __constVal1
+0	175	212		mov __rotate_theRVP2, __constVal32
+0	175	214		mov __rotate_theRVI2, __constVal0
+0	175	216		mov __rotate_theRVD2, __constVal96
+0	175	218		subcall __RotateMotor2, ____RotateMotor2_return
+0	175	220		release __rotateMutex2
+0	5550	221	#line 5550 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	174	221	#line 174 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	174	221	#line 174 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	175	221		set __Wait_7qG2_ms_7qG2_000_inline_main, 30
+0	174	224	#line 174 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	7921	224	#line 7921 "NXCDefs.h"
+0	7922	224		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	227	#line 7921 "NXCDefs.h"
+0	177	227	#line 177 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	182	227	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	227		set __main_7qG2_c_7qG2_000, 0
+0	182	230	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	182	230	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	230		mov __signed_stack_001main, __main_7qG2_c_7qG2_000
+0	182	232	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	182	232	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	232		set __D0main, 7
+0	182	235	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	235		cmp 5, __zfmain, __signed_stack_001main, __D0main
+0	182	239	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	239		mov __D0main, __zfmain
+0	182	241	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	241		brtst 4, __NXC_Label_636, __zfmain
+0	182	244	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	244		mov __signed_stack_001main, __D0main
+0	182	246	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	246		mov __signed_stack_002main, __main_7qG2_c_7qG2_000
+0	182	248	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	182	248	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	248		set __D0main, 8
+0	182	251	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	251		cmp 5, __zfmain, __signed_stack_002main, __D0main
+0	182	255	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	182	255	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	255		and __D0main, __signed_stack_001main, __zfmain
+0	182	259	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	259		tst 5, __zfmain, __D0main
+0	182	262	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	262		mov __D0main, __zfmain
+0	182	264	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	264		brtst 4, __NXC_Label_636, __zfmain
+0	182	267	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	267		mov __signed_stack_001main, __D0main
+0	182	269	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	269		mov __signed_stack_002main, __main_7qG2_c_7qG2_000
+0	182	271	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	182	271	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	271		set __D0main, 9
+0	182	274	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	274		cmp 5, __zfmain, __signed_stack_002main, __D0main
+0	182	278	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	182	278	#line 182 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	183	278		and __D0main, __signed_stack_001main, __zfmain
+0	184	282	#line 184 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	185	282		tst 5, __zfmain, __D0main
+0	184	285	#line 184 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	185	285		brtst 4, __NXC_Label_634, __zfmain
+0	184	288	#line 184 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	185	288	#pragma macro 24
+0	185	288		acquire __RLSBmutex0
+0	185	289		mov __RLSReadBuf0, __RLSBbufLSWrite1
+0	185	291		set __RLSBytesCount0, 1
+0	185	294		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	185	297		index __D0main, __RLSReadBuf0, 65535
+0	185	301		release __RLSBmutex0
+0	5626	302	#line 5626 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	184	302	#line 184 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	185	302		mov __main_7qG2_c_7qG2_000, __D0main
+0	184	304	#line 184 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	184	304	#line 184 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	194	304	#line 194 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	195	304		getin __main_7qG2_x_7qG2_001, __constVal2, 2
+0	194	308	#line 194 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	194	308	#line 194 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	195	308		mov __lineFollow_7qG2_x_7qG2_000, __main_7qG2_x_7qG2_001
+0	194	310	#line 194 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	195	310	#line 195 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	196	310		subcall lineFollow, __lineFollow_return
+0	195	312	#line 195 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	197	312	#line 197 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	198	312		jmp __NXC_Label_633
+0	197	314	#line 197 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	198	314	#line 198 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	199	314	#pragma macro 7
+0	199	314		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5657	337	#line 5657 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	198	337	#line 198 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	6069	337	#line 6069 "NXCDefs.h"
+0	6070	337	#pragma macro 6
+0	6070	337		mov __PointOutArgs.Location.X, __constVal200
+0	6070	340		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	343		mov __PointOutArgs.Options, __constVal1
+0	6070	345		syscall 14, __PointOutArgs
+0	5660	348	#line 5660 "NXCDefs.h"
+0	6069	348	#line 6069 "NXCDefs.h"
+0	200	348	#line 200 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	201	348	#line 201 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	202	348		subcall runHouse, __runHouse_return
+0	201	350	#line 201 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	202	350	#line 202 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	350	#pragma macro 7
+0	203	350		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5667	373	#line 5667 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	202	373	#line 202 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	202	373	#line 202 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	373		set __signed_stack_001main, 0
+0	202	376	#line 202 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	202	376	#line 202 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	376		set __signed_stack_002main, 56
+0	202	379	#line 202 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	202	379	#line 202 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	379		strcat __strbufmain, __constStr0009
+0	203	383	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	383	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	204	383		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	203	386	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	204	386		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	203	389	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	204	389		set __TextOutArgs.Options, 0
+0	203	392	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	204	392		mov __TextOutArgs.Text, __strbufmain
+0	203	394	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	204	394		syscall 13, __TextOutArgs
+0	203	397	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	397	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	397	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	397	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	204	397		set __signed_stack_001main, 300
+0	203	400	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	400	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	204	400		set __signed_stack_002main, 2000
+0	203	403	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	403	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	204	403		set __signed_stack_003main, 10
+0	203	406	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	203	406	#line 203 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	204	406		set __D0main, 0
+0	205	409	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	206	409		acquire __SPTArgsMutex
+0	205	410	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	206	410		mov __SPTArgs.Frequency, __signed_stack_001main
+0	205	413	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	206	413		mov __SPTArgs.Duration, __signed_stack_002main
+0	205	416	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	206	416		mov __SPTArgs.Volume, __signed_stack_003main
+0	205	419	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	206	419		mov __SPTArgs.Loop, __D0main
+0	205	422	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	206	422		syscall 10, __SPTArgs
+0	205	425	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	206	425		mov __D0main, __SPTArgs.Result
+0	205	428	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	206	428		release __SPTArgsMutex
+0	205	429	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	205	429	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	206	429		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	205	432	#line 205 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	7921	432	#line 7921 "NXCDefs.h"
+0	7922	432		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	435	#line 7921 "NXCDefs.h"
+0	206	435	#line 206 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+0	207	435		exit -1, -1
+1	4582	0		brtst 4, __rotate_Done2, __rotate_angle2
+1	4583	3		set ____RotateMotor2_sign_tmp, 0
+1	4583	6		brtst EQ, __sign_2, __rotate_angle2
+1	4583	9		set ____RotateMotor2_sign_tmp, -1
+1	4583	12		brtst LT, __sign_2, __rotate_angle2
+1	4583	15		set ____RotateMotor2_sign_tmp, 1
+1	4583	18	__sign_2:	mov __rotate_thePower2, ____RotateMotor2_sign_tmp
+1	4584	20		abs __rotate_theAngle2, __rotate_angle2
+1	4585	23		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+1	4587	27		set __rotate_theUF2, 23
+1	4588	30		brtst 4, __rotate_NoSync2, __rotate_sync2
+1	4589	33		set __rotate_theOM2, 7
+1	4590	36		set __rotate_theRM2, 2
+1	4591	39		mov __rotate_theTurnPct2, __rotate_turnpct2
+1	4592	41		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+1	4593	44		add __rotate_theUF2, __rotate_theUF2, __constVal32
+1	4594	48		jmp __rotate_Start2
+1	4596	50		set __rotate_theOM2, 3
+1	4597	53		set __rotate_theRM2, 0
+1	4598	56		set __rotate_theTurnPct2, 0
+1	4600	59		set __rotate_theRS2, 32
+1	4601	62		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+1	4604	85		index __rotate_firstPort2, __rotate_ports2, 65535
+1	4606	89		getout __rotate_power2, __rotate_firstPort2, 2
+1	4607	93		brtst 4, __rotate_doneRunning2, __rotate_power2
+1	4608	96		getout __rotate_rs2, __rotate_firstPort2, 6
+1	4609	100		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+1	4611	104		brtst 4, __rotate_Reset2, __rotate_stop2
+1	4613	107		set __rotate_theOM2, 7
+1	4614	110		set __rotate_theUF2, 7
+1	4615	113		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+1	4617	128		getout __rotate_RotCount2, __rotate_firstPort2, 14
+1	4619	132		mov __rotate_OldRotCount2, __rotate_RotCount2
+1	4620	134		wait2 NA, __constVal50
+1	4622	137		getout __rotate_RotCount2, __rotate_firstPort2, 14
+1	4623	141		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+1	4624	145		set __rotate_theOM2, 4
+1	4625	148		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+1	4628	159		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+1	4629	162		setout __rotate_ports2, 0, __constVal32
+1	4631	167		subret ____RotateMotor2_return
+2	4688	0		brtst 4, __rotate_Done4, __rotate_angle4
+2	4689	3		set ____RotateMotor4_sign_tmp, 0
+2	4689	6		brtst EQ, __sign_4, __rotate_angle4
+2	4689	9		set ____RotateMotor4_sign_tmp, -1
+2	4689	12		brtst LT, __sign_4, __rotate_angle4
+2	4689	15		set ____RotateMotor4_sign_tmp, 1
+2	4689	18	__sign_4:	mov __rotate_thePower4, ____RotateMotor4_sign_tmp
+2	4690	20		abs __rotate_theAngle4, __rotate_angle4
+2	4691	23		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
+2	4693	27		set __rotate_theUF4, 23
+2	4694	30		brtst 4, __rotate_NoSync4, __rotate_sync4
+2	4695	33		set __rotate_theOM4, 7
+2	4696	36		set __rotate_theRM4, 2
+2	4697	39		mov __rotate_theTurnPct4, __rotate_turnpct4
+2	4698	41		brtst 4, __rotate_Start4, __rotate_theTurnPct4
+2	4699	44		add __rotate_theUF4, __rotate_theUF4, __constVal32
+2	4700	48		jmp __rotate_Start4
+2	4702	50		set __rotate_theOM4, 3
+2	4703	53		set __rotate_theRM4, 0
+2	4704	56		set __rotate_theTurnPct4, 0
+2	4706	59		set __rotate_theRS4, 32
+2	4707	62		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
+2	4710	85		index __rotate_firstPort4, __rotate_ports4, 65535
+2	4712	89		getout __rotate_power4, __rotate_firstPort4, 2
+2	4713	93		brtst 4, __rotate_doneRunning4, __rotate_power4
+2	4714	96		getout __rotate_rs4, __rotate_firstPort4, 6
+2	4715	100		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
+2	4717	104		brtst 4, __rotate_Reset4, __rotate_stop4
+2	4719	107		set __rotate_theOM4, 7
+2	4720	110		set __rotate_theUF4, 7
+2	4721	113		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
+2	4723	128		getout __rotate_RotCount4, __rotate_firstPort4, 14
+2	4725	132		mov __rotate_OldRotCount4, __rotate_RotCount4
+2	4726	134		wait2 NA, __constVal50
+2	4728	137		getout __rotate_RotCount4, __rotate_firstPort4, 14
+2	4729	141		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
+2	4730	145		set __rotate_theOM4, 4
+2	4731	148		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
+2	4734	159		brtst 4, __rotate_Done4, __rotate_theTurnPct4
+2	4735	162		setout __rotate_ports4, 0, __constVal32
+2	4737	167		subret ____RotateMotor4_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	5672	0	#pragma macro 25
+4	5672	0		acquire __CLSWMutex0
+4	5672	1		set __CLSWArgs0.Port, 0
+4	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+4	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+4	5672	8		syscall 21, __CLSWArgs0
+4	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+4	5672	13		release __CLSWMutex0
+4	5673	14	#line 5673 "NXTDefs.h"
+4	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+4	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+4	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+4	5677	24		set __RLSBIterations0, 4
+4	5679	27	#pragma macro 23
+4	5679	27		acquire __CLSCSMutex0
+4	5679	28		set __CLSCSArgs0.Port, 0
+4	5679	31		syscall 23, __CLSCSArgs0
+4	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+4	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+4	5679	38		release __CLSCSMutex0
+4	5679	39	#line 5679 "NXTDefs.h"
+4	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+4	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+4	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+4	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+4	5685	52		wait2 NA, __constVal15
+4	5686	55		jmp __RLSBDoCheckStatus0
+4	5689	57	#pragma macro 25
+4	5689	57		acquire __CLSRMutex0
+4	5689	58		set __CLSRArgs0.Port, 0
+4	5689	61		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+4	5689	63		syscall 22, __CLSRArgs0
+4	5689	66		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+4	5689	68		mov __RLSBResult0, __CLSRArgs0.Result
+4	5689	70		release __CLSRMutex0
+4	5689	71	#line 5689 "NXTDefs.h"
+4	5690	71		brtst 5, __RLSBError0, __RLSBResult0
+4	5691	74		mov __RLSLastGoodRead0, __RLSReadBuf0
+4	5692	76		jmp __RLSBDone0
+4	5694	78		mov __RLSReadBuf0, __RLSLastGoodRead0
+4	5696	80		arrsize __RLSBytesCount0, __RLSReadBuf0
+4	5698	83		subret ____ReadLSBytes0_return
+5	5710	0	#pragma macro 25
+5	5710	0		acquire __CLSWMutex1
+5	5710	1		set __CLSWArgs1.Port, 1
+5	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+5	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+5	5710	8		syscall 21, __CLSWArgs1
+5	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+5	5710	13		release __CLSWMutex1
+5	5710	14	#line 5710 "NXTDefs.h"
+5	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+5	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+5	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+5	5714	24		set __RLSBIterations1, 4
+5	5716	27	#pragma macro 23
+5	5716	27		acquire __CLSCSMutex1
+5	5716	28		set __CLSCSArgs1.Port, 1
+5	5716	31		syscall 23, __CLSCSArgs1
+5	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+5	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+5	5716	38		release __CLSCSMutex1
+5	5716	39	#line 5716 "NXTDefs.h"
+5	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+5	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+5	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+5	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+5	5722	52		wait2 NA, __constVal15
+5	5723	55		jmp __RLSBDoCheckStatus1
+5	5726	57	#pragma macro 25
+5	5726	57		acquire __CLSRMutex1
+5	5726	58		set __CLSRArgs1.Port, 1
+5	5726	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+5	5726	63		syscall 22, __CLSRArgs1
+5	5726	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+5	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
+5	5726	70		release __CLSRMutex1
+5	5726	71	#line 5726 "NXTDefs.h"
+5	5727	71		brtst 5, __RLSBError1, __RLSBResult1
+5	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
+5	5729	76		jmp __RLSBDone1
+5	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
+5	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
+5	5735	83		subret ____ReadLSBytes1_return
+6	7	0	#line 7 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	8	0		mov __DU0calibrateColor, __calibrateColor_7qG2_color_7qG2_000
+6	8	2	#line 8 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	9	2		tst 5, __zfcalibrateColor, __DU0calibrateColor
+6	8	5	#line 8 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	9	5		brtst 4, __NXC_Label_491, __zfcalibrateColor
+6	9	8	#line 9 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	10	8		getin white, __constVal2, 2
+6	9	12	#line 9 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	9	12	#line 9 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	11	12	#line 11 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	12	12		jmp __NXC_Label_494
+6	12	14	#line 12 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	13	14		getin black, __constVal2, 2
+6	12	18	#line 12 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	12	18	#line 12 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	15	18	#line 15 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	15	18	#line 15 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+6	16	18		subret __calibrateColor_return
+7	20	0	#line 20 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	20	0	#line 20 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	21	0	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	21	0	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	22	0		sub value, __lineFollow_7qG2_x_7qG2_000, white
+7	21	4	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	21	4	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	21	4	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	21	4	#line 21 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	26	4	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	26	4	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	27	4		sub range, black, white
+7	26	8	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	26	8	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	26	8	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	26	8	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	26	8	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	26	8	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	27	8		mul __float_stack_001lineFollow, __constVal2, value
+7	26	12	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	26	12	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	26	12	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	27	12		div __float_stack_001lineFollow, __float_stack_001lineFollow, range
+7	26	16	#line 26 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	28	16	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	28	16	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	16		sub y, __float_stack_001lineFollow, __constVal1
+7	28	20	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	28	20	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	28	20	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	20		mov __float_stack_001lineFollow, y
+7	28	22	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	28	22	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	22		mov __DF0lineFollow, __constValNegf0P9
+7	28	24	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	24		cmp 0, __zflineFollow, __float_stack_001lineFollow, __DF0lineFollow
+7	28	28	#line 28 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	28		mov __D0lineFollow, __zflineFollow
+7	29	30	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	30		brtst 4, __NXC_Label_507, __zflineFollow
+7	29	33	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	33		set __signed_stack_001lineFollow, 0
+7	29	36	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	36	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	36		set __signed_stack_002lineFollow, 1
+7	29	39	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	39	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	39		set __signed_stack_003lineFollow, 25
+7	29	42	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	42	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	42		set __signed_stack_004lineFollow, 50
+7	29	45	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	45	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	45	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	45	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	29	45	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	45		sub __DF0lineFollow, __constVal0, y
+7	29	49	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	49		mul __DF0lineFollow, __signed_stack_004lineFollow, __DF0lineFollow
+7	29	53	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	53		add __DF0lineFollow, __signed_stack_003lineFollow, __DF0lineFollow
+7	29	57	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	57		mul __DF0lineFollow, __signed_stack_002lineFollow, __DF0lineFollow
+7	29	61	#line 29 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	61		sub __DF0lineFollow, __signed_stack_001lineFollow, __DF0lineFollow
+7	30	65	#line 30 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	31	65	#pragma macro 7
+7	31	65		setout __constVal0, 2, __DF0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4746	88	#line 4746 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	30	88	#line 30 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	32	88	#line 32 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	33	88		jmp __NXC_Label_514
+7	32	90	#line 32 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	33	90		set __signed_stack_001lineFollow, 25
+7	32	93	#line 32 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	32	93	#line 32 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	32	93	#line 32 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	32	93	#line 32 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	32	93	#line 32 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	33	93		mul __DF0lineFollow, __constVal50, y
+7	32	97	#line 32 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	33	97		add __DF0lineFollow, __signed_stack_001lineFollow, __DF0lineFollow
+7	33	101	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	34	101	#pragma macro 7
+7	34	101		setout __constVal0, 2, __DF0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4768	124	#line 4768 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	33	124	#line 33 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	34	124	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	34	124	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	124		mov __float_stack_001lineFollow, y
+7	34	126	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	34	126	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	126		mov __DF0lineFollow, __constValf0P9
+7	34	128	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	128		cmp 1, __zflineFollow, __float_stack_001lineFollow, __DF0lineFollow
+7	34	132	#line 34 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	132		mov __D0lineFollow, __zflineFollow
+7	35	134	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	36	134		brtst 4, __NXC_Label_519, __zflineFollow
+7	35	137	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	36	137		set __signed_stack_001lineFollow, 50
+7	35	140	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	140	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	140	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	140	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	140	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	36	140		sub __DF0lineFollow, __constVal0, y
+7	35	144	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	36	144		mul __float_stack_001lineFollow, __signed_stack_001lineFollow, __DF0lineFollow
+7	35	148	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	148	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	35	148	#line 35 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	36	148		sub __DF0lineFollow, __float_stack_001lineFollow, __constVal25
+7	36	152	#line 36 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	37	152	#pragma macro 7
+7	37	152		setout __constVal2, 2, __DF0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4811	175	#line 4811 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	36	175	#line 36 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	38	175	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	39	175		jmp __NXC_Label_524
+7	38	177	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	39	177		set __signed_stack_001lineFollow, 25
+7	38	180	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	38	180	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	39	180		set __signed_stack_002lineFollow, 50
+7	38	183	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	38	183	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	38	183	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	38	183	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	38	183	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	39	183		sub __DF0lineFollow, __constVal0, y
+7	38	187	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	39	187		mul __DF0lineFollow, __signed_stack_002lineFollow, __DF0lineFollow
+7	38	191	#line 38 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	39	191		add __DF0lineFollow, __signed_stack_001lineFollow, __DF0lineFollow
+7	39	195	#line 39 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	40	195	#pragma macro 7
+7	40	195		setout __constVal2, 2, __DF0lineFollow, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4841	218	#line 4841 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	39	218	#line 39 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	42	218	#line 42 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	42	218	#line 42 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+7	43	218		subret __lineFollow_return
+8	46	0	#line 46 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	47	0		mov __runHouse_7qG2_room_7qG2_000, __constVal1
+8	46	2	#line 46 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	46	2	#line 46 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	47	2	#pragma macro 26
+8	47	2		acquire __RLSBmutex1
+8	47	3		mov __RLSReadBuf1, __RLSBbufLSWrite1
+8	47	5		set __RLSBytesCount1, 1
+8	47	8		wait2 NA, __constVal15
+8	47	11		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+8	47	13		index __D0runHouse, __RLSReadBuf1, 65535
+8	47	17		release __RLSBmutex1
+8	4862	18	#line 4862 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	46	18	#line 46 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	47	18		mov __signed_stack_001runHouse, __D0runHouse
+8	46	20	#line 46 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	47	20		set __D0runHouse, 8
+8	46	23	#line 46 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	47	23		cmp 1, __zfrunHouse, __signed_stack_001runHouse, __D0runHouse
+8	46	27	#line 46 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	47	27		mov __D0runHouse, __zfrunHouse
+8	47	29	#line 47 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	48	29		brtst 4, __NXC_Label_532, __zfrunHouse
+8	47	32	#line 47 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	48	32		set __D0runHouse, 40
+8	48	35	#line 48 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	49	35	#pragma macro 7
+8	49	35		setout __OUT_AC, 2, __D0runHouse, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4880	58	#line 4880 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	48	58	#line 48 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	49	58	#line 49 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	50	58		jmp __NXC_Label_531
+8	49	60	#line 49 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	52	60	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	53	60	#pragma macro 7
+8	53	60		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4887	83	#line 4887 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	52	83	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	52	83	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	53	83		set __signed_stack_001runHouse, 40
+8	52	86	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	52	86	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	53	86		set __signed_stack_002runHouse, 305
+8	52	89	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	52	89	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	53	89		mov __signed_stack_003runHouse, __constValNeg100
+8	52	91	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	52	91	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	53	91		set __signed_stack_004runHouse, 1
+8	52	94	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	52	94	#line 52 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	53	94		set __D0runHouse, 1
+8	53	97	#line 53 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	54	97	#pragma macro 35
+8	54	97		acquire __rotateMutex2
+8	54	98		mov __rotate_ports4, __OUT_AC
+8	54	100		mov __rotate_power4, __signed_stack_001runHouse
+8	54	102		mov __rotate_angle4, __signed_stack_002runHouse
+8	54	104		mov __rotate_turnpct4, __signed_stack_003runHouse
+8	54	106		mov __rotate_sync4, __signed_stack_004runHouse
+8	54	108		mov __rotate_stop4, __D0runHouse
+8	54	110		mov __rotate_theRVP4, __constVal32
+8	54	112		mov __rotate_theRVI4, __constVal0
+8	54	114		mov __rotate_theRVD4, __constVal96
+8	54	116		subcall __RotateMotor4, ____RotateMotor4_return
+8	54	119		release __rotateMutex2
+8	4918	120	#line 4918 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	53	120	#line 53 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	56	120	#line 56 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	57	120	#pragma macro 7
+8	57	120		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4921	143	#line 4921 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	56	143	#line 56 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	56	143	#line 56 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	57	143	#pragma macro 26
+8	57	143		acquire __RLSBmutex1
+8	57	144		mov __RLSReadBuf1, __RLSBbufLSWrite1
+8	57	146		set __RLSBytesCount1, 1
+8	57	149		wait2 NA, __constVal15
+8	57	152		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+8	57	154		index __D0runHouse, __RLSReadBuf1, 65535
+8	57	158		release __RLSBmutex1
+8	4925	159	#line 4925 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	56	159	#line 56 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	57	159		mov __signed_stack_001runHouse, __D0runHouse
+8	56	161	#line 56 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	57	161		set __D0runHouse, 12
+8	56	164	#line 56 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	57	164		cmp 1, __zfrunHouse, __signed_stack_001runHouse, __D0runHouse
+8	56	168	#line 56 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	57	168		mov __D0runHouse, __zfrunHouse
+8	57	170	#line 57 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	58	170		brtst 4, __NXC_Label_548, __zfrunHouse
+8	57	173	#line 57 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	58	173		set __D0runHouse, 40
+8	58	176	#line 58 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	59	176	#pragma macro 7
+8	59	176		setout __OUT_AC, 2, __D0runHouse, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4943	199	#line 4943 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	58	199	#line 58 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	59	199	#line 59 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	60	199		jmp __NXC_Label_547
+8	59	201	#line 59 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	96	201	#line 96 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	97	201	#pragma macro 7
+8	97	201		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4950	224	#line 4950 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	96	224	#line 96 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	96	224	#line 96 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	97	224	#pragma macro 26
+8	97	224		acquire __RLSBmutex1
+8	97	225		mov __RLSReadBuf1, __RLSBbufLSWrite1
+8	97	227		set __RLSBytesCount1, 1
+8	97	230		wait2 NA, __constVal15
+8	97	233		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+8	97	235		index __D0runHouse, __RLSReadBuf1, 65535
+8	97	239		release __RLSBmutex1
+8	4954	240	#line 4954 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	96	240	#line 96 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	97	240		mov __signed_stack_001runHouse, __D0runHouse
+8	96	242	#line 96 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	97	242		set __D0runHouse, 70
+8	96	245	#line 96 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	97	245		cmp 0, __zfrunHouse, __signed_stack_001runHouse, __D0runHouse
+8	96	249	#line 96 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	97	249		mov __D0runHouse, __zfrunHouse
+8	97	251	#line 97 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	98	251		brtst 4, __NXC_Label_554, __zfrunHouse
+8	97	254	#line 97 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	98	254		mov __D0runHouse, __constValNeg40
+8	98	256	#line 98 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	99	256	#pragma macro 7
+8	99	256		setout __OUT_AC, 2, __D0runHouse, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4972	279	#line 4972 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	98	279	#line 98 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	99	279	#line 99 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	100	279		jmp __NXC_Label_553
+8	99	281	#line 99 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	101	281	#line 101 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	102	281	#pragma macro 7
+8	102	281		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	4979	304	#line 4979 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	101	304	#line 101 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	103	304	#line 103 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	104	304		set __runHouse_7qG2_room_7qG2_000, 2
+8	103	307	#line 103 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	103	307	#line 103 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	103	307	#line 103 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	104	307		set __Wait_7qG2_ms_7qG2_000_inline_runHouse, 500
+8	103	310	#line 103 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	7921	310	#line 7921 "NXCDefs.h"
+8	7922	310		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_runHouse
+8	7921	313	#line 7921 "NXCDefs.h"
+8	106	313	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	106	313	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	107	313		set __signed_stack_001runHouse, 40
+8	106	316	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	106	316	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	107	316		set __signed_stack_002runHouse, 203
+8	106	319	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	106	319	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	107	319		set __signed_stack_003runHouse, 100
+8	106	322	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	106	322	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	107	322		set __signed_stack_004runHouse, 1
+8	106	325	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	106	325	#line 106 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	107	325		set __D0runHouse, 1
+8	107	328	#line 107 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	108	328	#pragma macro 35
+8	108	328		acquire __rotateMutex2
+8	108	329		mov __rotate_ports4, __OUT_AC
+8	108	331		mov __rotate_power4, __signed_stack_001runHouse
+8	108	333		mov __rotate_angle4, __signed_stack_002runHouse
+8	108	335		mov __rotate_turnpct4, __signed_stack_003runHouse
+8	108	337		mov __rotate_sync4, __signed_stack_004runHouse
+8	108	339		mov __rotate_stop4, __D0runHouse
+8	108	341		mov __rotate_theRVP4, __constVal32
+8	108	343		mov __rotate_theRVI4, __constVal0
+8	108	345		mov __rotate_theRVD4, __constVal96
+8	108	347		subcall __RotateMotor4, ____RotateMotor4_return
+8	108	350		release __rotateMutex2
+8	5031	351	#line 5031 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	107	351	#line 107 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	110	351	#line 110 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	111	351	#pragma macro 7
+8	111	351		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5034	374	#line 5034 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	110	374	#line 110 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	110	374	#line 110 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	111	374	#pragma macro 26
+8	111	374		acquire __RLSBmutex1
+8	111	375		mov __RLSReadBuf1, __RLSBbufLSWrite1
+8	111	377		set __RLSBytesCount1, 1
+8	111	380		wait2 NA, __constVal15
+8	111	383		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+8	111	385		index __D0runHouse, __RLSReadBuf1, 65535
+8	111	389		release __RLSBmutex1
+8	5038	390	#line 5038 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	110	390	#line 110 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	111	390		mov __signed_stack_001runHouse, __D0runHouse
+8	110	392	#line 110 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	111	392		set __D0runHouse, 12
+8	110	395	#line 110 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	111	395		cmp 1, __zfrunHouse, __signed_stack_001runHouse, __D0runHouse
+8	110	399	#line 110 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	111	399		mov __D0runHouse, __zfrunHouse
+8	111	401	#line 111 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	112	401		brtst 4, __NXC_Label_574, __zfrunHouse
+8	111	404	#line 111 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	112	404		set __D0runHouse, 40
+8	112	407	#line 112 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	113	407	#pragma macro 7
+8	113	407		setout __OUT_AC, 2, __D0runHouse, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5056	430	#line 5056 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	112	430	#line 112 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	115	430	#line 115 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	116	430		jmp __NXC_Label_573
+8	115	432	#line 115 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	115	432	#line 115 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	116	432	#pragma macro 26
+8	116	432		acquire __RLSBmutex1
+8	116	433		mov __RLSReadBuf1, __RLSBbufLSWrite1
+8	116	435		set __RLSBytesCount1, 1
+8	116	438		wait2 NA, __constVal15
+8	116	441		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+8	116	443		index __D0runHouse, __RLSReadBuf1, 65535
+8	116	447		release __RLSBmutex1
+8	5064	448	#line 5064 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	115	448	#line 115 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	116	448		mov __signed_stack_001runHouse, __D0runHouse
+8	115	450	#line 115 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	116	450		set __D0runHouse, 47
+8	115	453	#line 115 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	116	453		cmp 0, __zfrunHouse, __signed_stack_001runHouse, __D0runHouse
+8	115	457	#line 115 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	116	457		mov __D0runHouse, __zfrunHouse
+8	116	459	#line 116 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	117	459		brtst 4, __NXC_Label_580, __zfrunHouse
+8	116	462	#line 116 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	117	462		mov __D0runHouse, __constValNeg40
+8	117	464	#line 117 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	118	464	#pragma macro 7
+8	118	464		setout __OUT_AC, 2, __D0runHouse, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5082	487	#line 5082 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	117	487	#line 117 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	119	487	#line 119 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	120	487		jmp __NXC_Label_579
+8	119	489	#line 119 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	122	489	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	123	489		set __runHouse_7qG2_room_7qG2_000, 3
+8	122	492	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	122	492	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	122	492	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	123	492		set __signed_stack_001runHouse, 40
+8	122	495	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	122	495	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	123	495		set __signed_stack_002runHouse, 253
+8	122	498	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	122	498	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	123	498		set __signed_stack_003runHouse, 100
+8	122	501	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	122	501	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	123	501		set __signed_stack_004runHouse, 1
+8	122	504	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	122	504	#line 122 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	123	504		set __D0runHouse, 1
+8	123	507	#line 123 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	124	507	#pragma macro 35
+8	124	507		acquire __rotateMutex2
+8	124	508		mov __rotate_ports4, __OUT_AC
+8	124	510		mov __rotate_power4, __signed_stack_001runHouse
+8	124	512		mov __rotate_angle4, __signed_stack_002runHouse
+8	124	514		mov __rotate_turnpct4, __signed_stack_003runHouse
+8	124	516		mov __rotate_sync4, __signed_stack_004runHouse
+8	124	518		mov __rotate_stop4, __D0runHouse
+8	124	520		mov __rotate_theRVP4, __constVal32
+8	124	522		mov __rotate_theRVI4, __constVal0
+8	124	524		mov __rotate_theRVD4, __constVal96
+8	124	526		subcall __RotateMotor4, ____RotateMotor4_return
+8	124	529		release __rotateMutex2
+8	5124	530	#line 5124 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	123	530	#line 123 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	126	530	#line 126 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	127	530	#pragma macro 7
+8	127	530		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5127	553	#line 5127 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	126	553	#line 126 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	126	553	#line 126 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	127	553	#pragma macro 26
+8	127	553		acquire __RLSBmutex1
+8	127	554		mov __RLSReadBuf1, __RLSBbufLSWrite1
+8	127	556		set __RLSBytesCount1, 1
+8	127	559		wait2 NA, __constVal15
+8	127	562		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+8	127	564		index __D0runHouse, __RLSReadBuf1, 65535
+8	127	568		release __RLSBmutex1
+8	5131	569	#line 5131 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	126	569	#line 126 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	127	569		mov __signed_stack_001runHouse, __D0runHouse
+8	126	571	#line 126 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	127	571		set __D0runHouse, 12
+8	126	574	#line 126 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	127	574		cmp 1, __zfrunHouse, __signed_stack_001runHouse, __D0runHouse
+8	126	578	#line 126 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	127	578		mov __D0runHouse, __zfrunHouse
+8	127	580	#line 127 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	128	580		brtst 4, __NXC_Label_598, __zfrunHouse
+8	127	583	#line 127 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	128	583		set __D0runHouse, 40
+8	128	586	#line 128 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	129	586	#pragma macro 7
+8	129	586		setout __OUT_AC, 2, __D0runHouse, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5149	609	#line 5149 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	128	609	#line 128 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	161	609	#line 161 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	162	609		jmp __NXC_Label_597
+8	161	611	#line 161 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	161	611	#line 161 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+8	162	611		subret __runHouse_return
+9	209	0	#line 209 "C:\Users\navin\AppData\Local\Temp\temp.nxc"
+9	210	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\navin\GSET\line-follower\line_follower.nxc
-1	__RotateMotor0	1201	NXTDefs.h
-2	__RotateMotor2	1370	NXTDefs.h
-3	__RotateMotor4	1539	NXTDefs.h
-4	__ResetSensorSubroutine	1708	NXTDefs.h
-5	__ReadLSBytes0	1721	NXTDefs.h
-6	__ReadLSBytes1	1806	NXTDefs.h
-7	__initialize_global_data	1891	C:\Users\navin\GSET\line-follower\line_follower.nxc
+0	main	0	C:\Users\navin\AppData\Local\Temp\temp.nxc
+1	__RotateMotor2	438	NXTDefs.h
+2	__RotateMotor4	607	NXTDefs.h
+3	__ResetSensorSubroutine	776	NXTDefs.h
+4	__ReadLSBytes0	789	NXTDefs.h
+5	__ReadLSBytes1	874	NXTDefs.h
+6	calibrateColor	959	C:\Users\navin\AppData\Local\Temp\temp.nxc
+7	lineFollow	979	C:\Users\navin\AppData\Local\Temp\temp.nxc
+8	runHouse	1199	C:\Users\navin\AppData\Local\Temp\temp.nxc
+9	__initialize_global_data	1812	C:\Users\navin\AppData\Local\Temp\temp.nxc
