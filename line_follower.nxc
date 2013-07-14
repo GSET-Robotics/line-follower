@@ -1,6 +1,6 @@
  #define MOTOR_SPEED 25
  #define VARIABLE_SPEED 50
- #define BASE_ANGLE 530
+ #define BASE_ANGLE 325
 
  task main() {
     // define variables
@@ -10,19 +10,21 @@
 
     // set up sensors
     SetSensorLight(S3);
+    SetSensorUltrasonic(S2);
     SetSensorType(S1, SENSOR_TYPE_LOWSPEED);
 
     // calibrate white and black colors
     black = SensorRaw(S3);
-    RotateMotor(OUT_C, 75, 360);
-    Wait(1000);
+    RotateMotorEx(OUT_AC, 100, BASE_ANGLE, 100, true, true);
+    Wait(30);
     white = SensorRaw(S3);
-    RotateMotor(OUT_C, -75, 360);
+    RotateMotorEx
+    (OUT_AC, 100, BASE_ANGLE, -100, true, true);
 
     // TextOut(0, LCD_LINE1, NumToStr(black));
     // TextOut(0, LCD_LINE2, NumToStr(white));
 
-    Wait(1000);
+    Wait(30);
 
    while (c != 7 && c != 8 && c != 9) {
       // get x between 0 and 1 in white to black range
@@ -32,9 +34,7 @@
       value = x - white;
       range = black - white;
       y = (2 * value / range) - 1;
-
-      NumOut(0, LCD_LINE1 , c);
-
+      
       if (y < -0.9) {
            OnFwd(OUT_A, -1 * (MOTOR_SPEED + VARIABLE_SPEED * (-y)));
       }
@@ -53,35 +53,58 @@
         PlayToneEx(300, 400, 2, false);
       }
     }
+    
     Off(OUT_AC);
-
+    ClearScreen();
+    int room = 1;
+    
     // pull forward a bit
-    RotateMotor(OUT_AC, 75, BASE_ANGLE / 2);
+    while (SensorUS(S2) > 12) {
+       OnFwd(OUT_AC, 40);
+    }
     Off(OUT_AC);
-
+    
     // turn right 90 degrees
-    RotateMotor(OUT_A, 75, BASE_ANGLE);
-    Off(OUT_A);
+    RotateMotorEx(OUT_AC, 40, BASE_ANGLE, -100, true, true);
+    Off(OUT_AC);
 
     // forward until US
-     while (SensorUS(S2) > 10) {
-       OnFwd(OUT_AC, 75);
-     }
-     Off(OUT_AC);
+    while (SensorUS(S2) > 12) {
+      OnFwd(OUT_AC, 40);
+    }
+    Off(OUT_AC);
     
     // left 90 degrees
-    RotateMotor(OUT_C, 75, BASE_ANGLE);
-    Off(OUT_C);
+    RotateMotorEx(OUT_AC, 40, BASE_ANGLE, 100, true, true);
+    Off(OUT_AC);
 
-    // forward until US, record distance
+    // forward until US, record distance or turn around
+    while (SensorUS(S2) > 10) {
+      OnFwd(OUT_AC, 75);
+    }
+    Off(OUT_AC);
+    RotateMotorEx(OUT_AC, 40, BASE_ANGLE * 2, 100, true, true);
+    Off(OUT_AC);
 
-    // backward same distance
-
-    // turn left 90 degrees
-    RotateMotor(OUT_C, 75, BASE_ANGLE);
+    // backward/forward same distance or until US
+    while (SensorUS(S2) > 10) {
+      OnFwd(OUT_AC, 40);
+    }
+    
+    // turn left/right 90 degrees depending on last step
+    RotateMotor(OUT_A, 40, BASE_ANGLE);
     Off(OUT_C);
 
     // forward 3 inches, right 90 degrees sense wall (exit if wall), left 90 degrees, repeat
+    
+    while(SensorUS(S2) > 10) {
+      OnFwd(OUT_AC, 75);
+      Wait(1000);
+      Off(OUT_AC);
+      RotateMotor(OUT_A, 75, BASE_ANGLE);
+      if (SensorUS(S2) > 40) break;
+      RotateMotor(OUT_A, -75, BASE_ANGLE);
+    }
 
     // (forward until US, right 90 degrees) x 3
     for (int i = 0; i < 3; i ++) {
@@ -102,7 +125,14 @@
     RotateMotor(OUT_C, 75, BASE_ANGLE);
     
     // (forward until US, right 90 degrees) x 2
-
+    for (int i = 0; i < 2; i ++) {
+      while (SensorUS(S2) > 10) {
+        OnFwd(OUT_AC, 75);
+      }
+      Off(OUT_AC);
+      RotateMotor(OUT_A, 75, BASE_ANGLE);
+      Off(OUT_A);
+    }
 
 
 }

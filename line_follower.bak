@@ -64,21 +64,41 @@
     Off(OUT_A);
 
     // forward until US
-
-
+     while (SensorUS(S2) > 10) {
+       OnFwd(OUT_AC, 75);
+     }
+     Off(OUT_AC);
+    
     // left 90 degrees
     RotateMotor(OUT_C, 75, BASE_ANGLE);
     Off(OUT_C);
 
-    // forward until US, record distance
+    // forward until US, record distance or turn around
+    while (SensorUS(S2) > 10) {
+      OnFwd(OUT_AC, 75);
+    }
+    Off(OUT_AC);
+    RotateMotor(OUT_A, 75, BASE_ANGLE);
+    RotateMotor(OUT_C, -75, BASE_ANGLE);
+    Off(OUT_AC);
 
-    // backward same distance
-
-    // turn left 90 degrees
-    RotateMotor(OUT_C, 75, BASE_ANGLE);
+    // backward/forward same distance or until US
+    while (SensorUS(S2) > 10) {
+      OnFwd(OUT_AC, 75);
+    }
+    
+    // turn left/right 90 degrees depending on last step
+    RotateMotor(OUT_A, 75, BASE_ANGLE);
     Off(OUT_C);
 
     // forward 3 inches, right 90 degrees sense wall (exit if wall), left 90 degrees, repeat
+    
+    while(SensorUS(S2) > 10) {
+      OnFwd(OUT_AC, 75);
+      Wait(1000);
+      Off(OUT_AC);
+      
+    }
 
     // (forward until US, right 90 degrees) x 3
     for (int i = 0; i < 3; i ++) {
@@ -99,7 +119,14 @@
     RotateMotor(OUT_C, 75, BASE_ANGLE);
     
     // (forward until US, right 90 degrees) x 2
-
+    for (int i = 0; i < 2; i ++) {
+      while (SensorUS(S2) > 10) {
+        OnFwd(OUT_AC, 75);
+      }
+      Off(OUT_AC);
+      RotateMotor(OUT_A, 75, BASE_ANGLE);
+      Off(OUT_A);
+    }
 
 
 }
